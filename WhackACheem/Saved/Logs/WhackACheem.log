@@ -962,3 +962,1051 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.12.13-20.26.10:560][ 98]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/BP_Cheems2321DBE2B489545D716E1299052B912AA.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/Cheems/BP_Cheems2.uasset'
 [2021.12.13-20.26.10:586][ 98]AssetCheck: New page: Asset Save: BP_Cheems2
 [2021.12.13-20.26.10:586][ 98]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/Cheems/BP_Cheems2.BP_Cheems2
+[2021.12.13-20.29.59:817][ 68]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2021.12.13-20.30.24:905][302]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-20.30.24:925][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-20.30.24:925][302]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 2:30:24 PM)
+[2021.12.13-20.30.24:930][302]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.13-20.30.24:932][302]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.13-20.30.24:933][302]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-20.30.24:952][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018163s)
+[2021.12.13-20.30.24:953][302]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-20.30.24:953][302]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000284EE2BA400), frame # 41302
+[2021.12.13-20.30.24:953][302]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002850EBDE480), frame # 41302
+[2021.12.13-20.30.24:953][302]LogPlayLevel: PIE: World Init took: (0.001407s)
+[2021.12.13-20.30.24:953][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.020690s)
+[2021.12.13-20.30.24:974][302]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-20.30.24:977][302]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-20.30.24:977][302]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-20.30.24:978][302]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-20.30.24:978][302]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-20.30.24:981][302]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-20.30.24:981][302]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-20.30.24:998][302]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-20.30.24:998][302]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-20.30.24:998][302]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-20.30.24:998][302]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-20.30.25:000][302]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-20.30.25:013][302]LogInit: FAudioDevice initialized.
+[2021.12.13-20.30.25:022][302]LogLoad: Game class is 'GameModeBase'
+[2021.12.13-20.30.25:034][302]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-17.30.25
+[2021.12.13-20.30.25:036][302]LogWorld: Bringing up level for play took: 0.004362
+[2021.12.13-20.30.25:037][302]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2021.12.13-20.30.25:058][302]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.12.13-20.30.25:081][302]PIE: Server logged in
+[2021.12.13-20.30.25:083][302]PIE: Play in editor total start time 0.162 seconds.
+[2021.12.13-20.32.57:097][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-20.32.57:097][118]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-20.32.57:100][118]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-20.32.57:105][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-20.32.57:144][118]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-20.32.57:156][118]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-20.32.57:195][118]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-20.32.57:220][118]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002850EBDE480), frame # 50118
+[2021.12.13-20.32.57:220][118]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000284EE2BA400), frame # 50118
+[2021.12.13-20.32.57:225][118]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2021.12.13-20.32.57:252][119]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2021.12.13-20.33.23:951][238]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.12.13-20.38.37:320][854]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.12.13-20.38.37:322][854]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.035
+[2021.12.13-20.38.37:324][854]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.12.13-20.38.37:324][854]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.12.13-20.38.37:380][854]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerPawn_Auto23113F1824506D40F7A1B138150FFC63B.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto2.uasset'
+[2021.12.13-20.38.37:382][854]LogFileHelpers: Auto-saving content packages took 0.059
+[2021.12.13-20.40.37:651][302]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_PickupStick.BP_PickupStick
+[2021.12.13-20.41.16:308][442]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_PickupCube.BP_PickupCube
+[2021.12.13-20.42.40:486][165]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-20.42.40:503][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-20.42.40:503][165]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 2:42:40 PM)
+[2021.12.13-20.42.40:503][165]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-20.42.40:521][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017695s)
+[2021.12.13-20.42.40:522][165]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-20.42.40:522][165]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285474AF400), frame # 80165
+[2021.12.13-20.42.40:522][165]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002854DF20180), frame # 80165
+[2021.12.13-20.42.40:523][165]LogPlayLevel: PIE: World Init took: (0.001101s)
+[2021.12.13-20.42.40:523][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.019048s)
+[2021.12.13-20.42.40:560][165]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-20.42.40:565][165]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-20.42.40:565][165]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-20.42.40:566][165]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-20.42.40:567][165]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-20.42.40:570][165]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-20.42.40:570][165]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-20.42.40:590][165]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-20.42.40:590][165]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-20.42.40:590][165]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-20.42.40:590][165]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-20.42.40:591][165]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-20.42.40:607][165]LogInit: FAudioDevice initialized.
+[2021.12.13-20.42.40:618][165]LogLoad: Game class is 'GameModeBase'
+[2021.12.13-20.42.40:620][165]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-17.42.40
+[2021.12.13-20.42.40:620][165]LogWorld: Bringing up level for play took: 0.001727
+[2021.12.13-20.42.40:620][165]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.13-20.42.40:624][165]PIE: Server logged in
+[2021.12.13-20.42.40:625][165]PIE: Play in editor total start time 0.123 seconds.
+[2021.12.13-20.42.59:444][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-20.42.59:444][258]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-20.42.59:445][258]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-20.42.59:446][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-20.42.59:475][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-20.42.59:486][258]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-20.42.59:571][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-20.42.59:572][258]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002854DF20180), frame # 81258
+[2021.12.13-20.42.59:572][258]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285474AF400), frame # 81258
+[2021.12.13-20.42.59:576][258]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.12.13-20.42.59:614][259]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.13-20.55.57:611][131]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.12.13-20.55.57:721][131]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.12.13-20.56.41:905][ 92]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.13-20.56.49:311][492]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Maps/GM_Timer.GM_Timer
+[2021.12.13-20.57.17:265][ 77]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-20.57.17:342][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   4.81ms
+[2021.12.13-20.58.08:106][961]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-20.58.08:187][961]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2021.12.13-20.58.56:992][834]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.12.13-20.58.57:053][834]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap_Auto3E48913804C3436E577EC2B9BBD8A8D3B.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto3.umap'
+[2021.12.13-20.58.57:054][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.101
+[2021.12.13-20.58.57:054][834]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.101
+[2021.12.13-20.58.57:055][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.12.13-20.58.57:055][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.12.13-20.58.57:115][834]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerPawn_Auto3939BDB4A4E87372EB150CC8BFE5D473F.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto3.uasset'
+[2021.12.13-20.58.57:116][834]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/GM_Timer] ([1] browsable assets)...
+[2021.12.13-20.58.57:117][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/GM_Timer]
+[2021.12.13-20.58.57:122][834]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/GM_Timer_Auto31B07BAE14E2F2ECDBFF085B1BCE7F141.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/GM_Timer_Auto3.uasset'
+[2021.12.13-20.58.57:123][834]LogFileHelpers: Auto-saving content packages took 0.069
+[2021.12.13-21.08.23:074][795]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.08.23:154][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.12.13-21.08.57:346][795]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2021.12.13-21.08.57:347][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.048
+[2021.12.13-21.08.57:347][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/GM_Timer] ([1] browsable assets)...
+[2021.12.13-21.08.57:347][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/GM_Timer]
+[2021.12.13-21.08.57:363][795]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/GM_Timer_Auto4813432B74FC856593AF34C9B988666FD.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/GM_Timer_Auto4.uasset'
+[2021.12.13-21.08.57:366][795]LogFileHelpers: Auto-saving content packages took 0.019
+[2021.12.13-21.10.36:381][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.12.13-21.10.36:431][644]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMapBC562A9B4C19D371FB8F838D4BFCEA5B.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.12.13-21.10.36:473][644]AssetCheck: New page: Asset Save: MotionControllerMap
+[2021.12.13-21.10.36:473][644]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.12.13-21.10.37:317][675]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.12.13-21.10.40:719][675]LogSlate: Window 'Save Content' being destroyed
+[2021.12.13-21.18.45:803][469]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.18.45:900][469]LogUObjectHash: Compacting FUObjectHashTables data took   5.31ms
+[2021.12.13-21.19.06:086][537]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.13-21.21.39:483][210]LogEditorTransaction: Undo Move Node
+[2021.12.13-21.22.24:638][820]LogUObjectHash: Compacting FUObjectHashTables data took   5.06ms
+[2021.12.13-21.22.24:640][820]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.131
+[2021.12.13-21.22.24:641][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/GM_Timer] ([1] browsable assets)...
+[2021.12.13-21.22.24:641][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/GM_Timer]
+[2021.12.13-21.22.24:653][820]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/GM_Timer_Auto596AB4E024670746A3CD5A29E34D4C0EC.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/GM_Timer_Auto5.uasset'
+[2021.12.13-21.22.24:654][820]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/WG_Timer] ([1] browsable assets)...
+[2021.12.13-21.22.24:654][820]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/WG_Timer]
+[2021.12.13-21.22.24:662][820]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer_Auto52C6026AA4E668C337EC88CB88515C080.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/WG_Timer_Auto5.uasset'
+[2021.12.13-21.22.24:664][820]LogFileHelpers: Auto-saving content packages took 0.024
+[2021.12.13-21.24.31:846][308]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.24.31:968][308]LogUObjectHash: Compacting FUObjectHashTables data took   6.83ms
+[2021.12.13-21.24.45:908][ 53]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap:PersistentLevel.MotionControllerMap
+[2021.12.13-21.25.04:201][ 60]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.13-21.25.24:941][255]BlueprintLog: New page: Compile MotionControllerMap
+[2021.12.13-21.25.25:041][255]LogUObjectHash: Compacting FUObjectHashTables data took   6.29ms
+[2021.12.13-21.25.37:862][935]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.13-21.25.43:677][209]LogUObjectHash: Compacting FUObjectHashTables data took   3.29ms
+[2021.12.13-21.25.43:733][209]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap63F3D90845A61BB2B71B84AAF8A54540.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.12.13-21.25.43:780][209]AssetCheck: New page: Asset Save: MotionControllerMap
+[2021.12.13-21.25.43:780][209]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.12.13-21.25.48:588][457]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.25.48:607][457]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.25.48:607][457]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:25:48 PM)
+[2021.12.13-21.25.48:607][457]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.25.48:625][457]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017454s)
+[2021.12.13-21.25.48:626][457]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.25.48:626][457]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028538719800), frame # 199457
+[2021.12.13-21.25.48:626][457]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A1AD9A80), frame # 199457
+[2021.12.13-21.25.48:627][457]LogPlayLevel: PIE: World Init took: (0.001538s)
+[2021.12.13-21.25.48:627][457]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.019262s)
+[2021.12.13-21.25.48:678][457]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2021.12.13-21.25.48:680][457]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.25.48:680][457]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.25.48:680][457]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.25.48:681][457]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.25.48:681][457]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.25.48:681][457]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.25.48:681][457]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.25.48:681][457]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.25.48:681][457]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.25.48:681][457]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.25.48:684][457]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.25.48:684][457]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.25.48:708][457]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.25.48:708][457]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.25.48:708][457]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.25.48:708][457]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.25.48:708][457]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.25.48:722][457]LogInit: FAudioDevice initialized.
+[2021.12.13-21.25.48:732][457]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.25.48:738][457]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.25.48
+[2021.12.13-21.25.48:738][457]LogWorld: Bringing up level for play took: 0.003116
+[2021.12.13-21.25.48:738][457]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2021.12.13-21.25.48:740][457]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.25.48:740][457]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.25.48:740][457]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.25.48:743][457]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.25.48:743][457]PIE: Server logged in
+[2021.12.13-21.25.48:744][457]PIE: Play in editor total start time 0.138 seconds.
+[2021.12.13-21.25.54:374][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.25.54:374][760]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.25.54:375][760]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.25.54:376][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.25.54:401][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.25.54:419][760]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.25.54:478][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.25.54:496][760]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A1AD9A80), frame # 199760
+[2021.12.13-21.25.54:497][760]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028538719800), frame # 199760
+[2021.12.13-21.25.54:505][760]LogUObjectHash: Compacting FUObjectHashTables data took   6.62ms
+[2021.12.13-21.25.54:531][761]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2021.12.13-21.26.23:280][353]BlueprintLog: New page: Compile MotionControllerMap
+[2021.12.13-21.26.23:373][353]LogUObjectHash: Compacting FUObjectHashTables data took   7.78ms
+[2021.12.13-21.26.29:038][637]LogUObjectHash: Compacting FUObjectHashTables data took   6.78ms
+[2021.12.13-21.26.29:084][637]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap7C00C9E94A1B0EEF3130308123040699.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.12.13-21.26.29:120][637]AssetCheck: New page: Asset Save: MotionControllerMap
+[2021.12.13-21.26.29:120][637]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.12.13-21.26.30:276][696]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.26.30:293][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.26.30:293][696]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:26:30 PM)
+[2021.12.13-21.26.30:293][696]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.26.30:308][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015615s)
+[2021.12.13-21.26.30:309][696]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.26.30:309][696]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028555A54600), frame # 201696
+[2021.12.13-21.26.30:309][696]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A5CB6FC0), frame # 201696
+[2021.12.13-21.26.30:309][696]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2021.12.13-21.26.30:310][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.016759s)
+[2021.12.13-21.26.30:360][696]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.26.30:361][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.26.30:361][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.26.30:362][696]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.26.30:362][696]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.26.30:364][696]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.26.30:364][696]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.26.30:386][696]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.26.30:386][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.26.30:387][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.26.30:387][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.26.30:387][696]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.26.30:402][696]LogInit: FAudioDevice initialized.
+[2021.12.13-21.26.30:410][696]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.26.30:412][696]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.26.30
+[2021.12.13-21.26.30:412][696]LogWorld: Bringing up level for play took: 0.001784
+[2021.12.13-21.26.30:413][696]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2021.12.13-21.26.30:415][696]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.26.30:415][696]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.26.30:415][696]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.26.30:419][696]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.26.30:419][696]PIE: Server logged in
+[2021.12.13-21.26.30:420][696]PIE: Play in editor total start time 0.127 seconds.
+[2021.12.13-21.26.36:658][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.26.36:658][ 35]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.26.36:658][ 35]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.26.36:658][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.26.36:668][ 35]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.26.36:674][ 35]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.26.36:742][ 35]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.26.36:743][ 35]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A5CB6FC0), frame # 202035
+[2021.12.13-21.26.36:743][ 35]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028555A54600), frame # 202035
+[2021.12.13-21.26.36:747][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2021.12.13-21.26.36:779][ 36]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2021.12.13-21.26.51:802][877]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.26.51:820][877]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.26.51:821][877]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:26:51 PM)
+[2021.12.13-21.26.51:821][877]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.26.51:837][877]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016484s)
+[2021.12.13-21.26.51:838][877]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.26.51:838][877]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002856E40C200), frame # 202877
+[2021.12.13-21.26.51:839][877]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A23FAC00), frame # 202877
+[2021.12.13-21.26.51:839][877]LogPlayLevel: PIE: World Init took: (0.001390s)
+[2021.12.13-21.26.51:839][877]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.018031s)
+[2021.12.13-21.26.51:890][877]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.26.51:891][877]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.26.51:891][877]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.26.51:892][877]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.26.51:892][877]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.26.51:894][877]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.26.51:894][877]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.26.51:914][877]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.26.51:914][877]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.26.51:915][877]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.26.51:915][877]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.26.51:915][877]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.26.51:927][877]LogInit: FAudioDevice initialized.
+[2021.12.13-21.26.51:960][877]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.26.51:972][877]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.26.51:976][877]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.26.51
+[2021.12.13-21.26.51:977][877]LogWorld: Bringing up level for play took: 0.004031
+[2021.12.13-21.26.51:978][877]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2021.12.13-21.26.51:983][877]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.26.51:983][877]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.26.51:983][877]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.26.51:983][877]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.26.51:988][877]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.26.51:991][877]PIE: Server logged in
+[2021.12.13-21.26.51:992][877]PIE: Play in editor total start time 0.172 seconds.
+[2021.12.13-21.26.52:022][878]LogRenderer: Reallocating scene render targets to support 1280x720 Format 26 NumSamples 1 (Frame:1).
+[2021.12.13-21.27.17:808][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.27.17:808][779]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.27.17:808][779]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.27.17:824][779]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.27.17:825][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.27.17:849][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.27.17:857][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.27.18:022][779]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A23FAC00), frame # 203779
+[2021.12.13-21.27.18:022][779]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002856E40C200), frame # 203779
+[2021.12.13-21.27.18:027][779]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2021.12.13-21.27.18:062][780]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2021.12.13-21.27.34:490][745]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.27.34:587][745]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2021.12.13-21.27.35:945][813]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.27.35:964][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.27.35:964][813]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:27:35 PM)
+[2021.12.13-21.27.35:964][813]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.27.35:980][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015507s)
+[2021.12.13-21.27.35:981][813]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.27.35:981][813]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028595076E00), frame # 204813
+[2021.12.13-21.27.35:981][813]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002850EB7AAC0), frame # 204813
+[2021.12.13-21.27.35:981][813]LogPlayLevel: PIE: World Init took: (0.001061s)
+[2021.12.13-21.27.35:981][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.016708s)
+[2021.12.13-21.27.36:031][813]LogUObjectHash: Compacting FUObjectHashTables data took   5.05ms
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.27.36:033][813]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.27.36:033][813]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.27.36:035][813]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.27.36:035][813]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.27.36:039][813]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.27.36:039][813]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.27.36:084][813]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.27.36:084][813]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.27.36:084][813]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.27.36:084][813]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.27.36:085][813]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.27.36:102][813]LogInit: FAudioDevice initialized.
+[2021.12.13-21.27.36:157][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.27.36:158][813]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.27.36:161][813]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.27.36
+[2021.12.13-21.27.36:162][813]LogWorld: Bringing up level for play took: 0.003093
+[2021.12.13-21.27.36:162][813]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.12.13-21.27.36:163][813]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.27.36:163][813]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.27.36:163][813]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.27.36:163][813]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.27.36:172][813]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.27.36:174][813]PIE: Server logged in
+[2021.12.13-21.27.36:176][813]PIE: Play in editor total start time 0.213 seconds.
+[2021.12.13-21.27.40:458][987]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.27.40:458][987]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.27.40:459][987]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.27.40:463][987]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.27.40:465][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.27.40:489][987]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.27.40:497][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.27.40:635][987]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002850EB7AAC0), frame # 204987
+[2021.12.13-21.27.40:635][987]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028595076E00), frame # 204987
+[2021.12.13-21.27.40:646][987]LogUObjectHash: Compacting FUObjectHashTables data took  10.13ms
+[2021.12.13-21.27.40:694][988]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.12.13-21.28.07:184][504]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.28.07:203][504]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.12.13-21.28.07:205][504]LogPlayLevel: [PlayLevel] Compiling GM_Timer before play...
+[2021.12.13-21.28.07:307][504]LogUObjectHash: Compacting FUObjectHashTables data took   7.75ms
+[2021.12.13-21.28.07:308][504]LogPlayLevel: PlayLevel: Blueprint regeneration took 105 ms (1 blueprints)
+[2021.12.13-21.28.07:308][504]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:28:07 PM)
+[2021.12.13-21.28.07:308][504]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.28.07:321][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012490s)
+[2021.12.13-21.28.07:322][504]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.28.07:322][504]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028562FC1400), frame # 206504
+[2021.12.13-21.28.07:322][504]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A1AA6480), frame # 206504
+[2021.12.13-21.28.07:322][504]LogPlayLevel: PIE: World Init took: (0.001202s)
+[2021.12.13-21.28.07:322][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.013810s)
+[2021.12.13-21.28.07:374][504]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.28.07:375][504]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.28.07:375][504]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.28.07:376][504]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.28.07:376][504]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.28.07:378][504]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.28.07:378][504]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.28.07:398][504]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.28.07:398][504]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.28.07:398][504]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.28.07:398][504]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.28.07:401][504]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.28.07:415][504]LogInit: FAudioDevice initialized.
+[2021.12.13-21.28.07:478][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.28.07:479][504]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.28.07:493][504]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.28.07
+[2021.12.13-21.28.07:494][504]LogWorld: Bringing up level for play took: 0.011637
+[2021.12.13-21.28.07:494][504]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.12.13-21.28.07:501][504]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.28.07:502][504]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.28.07:502][504]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.28.07:502][504]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.28.07:513][504]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.28.07:513][504]PIE: Server logged in
+[2021.12.13-21.28.07:514][504]PIE: Play in editor total start time 0.312 seconds.
+[2021.12.13-21.28.12:637][713]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.28.12:637][713]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.28.12:638][713]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.28.12:642][713]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.28.12:642][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.28.12:650][713]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.28.12:662][713]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.28.12:828][713]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A1AA6480), frame # 206713
+[2021.12.13-21.28.12:828][713]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028562FC1400), frame # 206713
+[2021.12.13-21.28.12:835][713]LogUObjectHash: Compacting FUObjectHashTables data took   6.04ms
+[2021.12.13-21.28.12:875][714]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.12.13-21.31.42:338][966]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.31.42:438][966]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.12.13-21.31.43:640][ 32]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.31.43:657][ 32]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.31.43:657][ 32]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:31:43 PM)
+[2021.12.13-21.31.43:657][ 32]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.31.43:674][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016235s)
+[2021.12.13-21.31.43:675][ 32]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.31.43:675][ 32]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028561E8D200), frame # 219032
+[2021.12.13-21.31.43:675][ 32]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002854E061440), frame # 219032
+[2021.12.13-21.31.43:675][ 32]LogPlayLevel: PIE: World Init took: (0.001300s)
+[2021.12.13-21.31.43:675][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.017654s)
+[2021.12.13-21.31.43:726][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   4.54ms
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.31.43:727][ 32]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.31.43:727][ 32]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.31.43:728][ 32]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.31.43:728][ 32]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.31.43:730][ 32]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.31.43:730][ 32]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.31.43:751][ 32]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.31.43:751][ 32]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.31.43:751][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.31.43:751][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.31.43:751][ 32]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.31.43:762][ 32]LogInit: FAudioDevice initialized.
+[2021.12.13-21.31.43:832][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.31.43:833][ 32]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.31.43:849][ 32]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.31.43
+[2021.12.13-21.31.43:850][ 32]LogWorld: Bringing up level for play took: 0.012850
+[2021.12.13-21.31.43:851][ 32]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.12.13-21.31.43:857][ 32]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.31.43:858][ 32]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.31.43:858][ 32]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.31.43:858][ 32]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.31.43:864][ 32]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.31.43:865][ 32]PIE: Server logged in
+[2021.12.13-21.31.43:868][ 32]PIE: Play in editor total start time 0.211 seconds.
+[2021.12.13-21.33.55:880][490]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.33.55:912][490]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.33.55:913][490]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.33.55:916][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.33.55:941][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.33.55:949][490]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.33.56:127][490]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002854E061440), frame # 224490
+[2021.12.13-21.33.56:127][490]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028561E8D200), frame # 224490
+[2021.12.13-21.33.56:133][490]LogUObjectHash: Compacting FUObjectHashTables data took   5.88ms
+[2021.12.13-21.33.56:175][491]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.12.13-21.37.05:143][230]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.37.05:218][230]LogUObjectHash: Compacting FUObjectHashTables data took   5.03ms
+[2021.12.13-21.37.18:346][969]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.37.18:449][969]LogUObjectHash: Compacting FUObjectHashTables data took   4.99ms
+[2021.12.13-21.37.19:310][ 13]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.37.19:324][ 13]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.37.19:324][ 13]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:37:19 PM)
+[2021.12.13-21.37.19:324][ 13]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.37.19:344][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019346s)
+[2021.12.13-21.37.19:344][ 13]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.37.19:345][ 13]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285BE036200), frame # 236013
+[2021.12.13-21.37.19:345][ 13]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002854E060E00), frame # 236013
+[2021.12.13-21.37.19:345][ 13]LogPlayLevel: PIE: World Init took: (0.001195s)
+[2021.12.13-21.37.19:345][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.020726s)
+[2021.12.13-21.37.19:397][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.37.19:403][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.37.19:403][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.37.19:404][ 13]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.37.19:404][ 13]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.37.19:407][ 13]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.37.19:407][ 13]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.37.19:426][ 13]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.37.19:426][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.37.19:426][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.37.19:426][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.37.19:427][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.37.19:441][ 13]LogInit: FAudioDevice initialized.
+[2021.12.13-21.37.19:516][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.37.19:516][ 13]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.37.19:529][ 13]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.37.19
+[2021.12.13-21.37.19:529][ 13]LogWorld: Bringing up level for play took: 0.010587
+[2021.12.13-21.37.19:530][ 13]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.12.13-21.37.19:538][ 13]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.37.19:540][ 13]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.37.19:540][ 13]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.37.19:540][ 13]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.37.19:547][ 13]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.37.19:549][ 13]PIE: Server logged in
+[2021.12.13-21.37.19:551][ 13]PIE: Play in editor total start time 0.228 seconds.
+[2021.12.13-21.37.28:510][352]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.37.28:538][352]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.37.28:539][352]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.37.28:540][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.37.28:562][352]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.37.28:571][352]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.37.28:738][352]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002854E060E00), frame # 236352
+[2021.12.13-21.37.28:738][352]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285BE036200), frame # 236352
+[2021.12.13-21.37.28:747][352]LogUObjectHash: Compacting FUObjectHashTables data took   8.20ms
+[2021.12.13-21.37.28:777][353]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.12.13-21.38.13:834][831]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.38.13:918][831]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2021.12.13-21.38.23:294][332]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.38.23:365][332]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.12.13-21.38.25:075][426]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.38.25:095][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.38.25:095][426]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:38:25 PM)
+[2021.12.13-21.38.25:095][426]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.38.25:111][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016075s)
+[2021.12.13-21.38.25:112][426]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.38.25:112][426]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285BE2E7E00), frame # 239426
+[2021.12.13-21.38.25:112][426]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A1439800), frame # 239426
+[2021.12.13-21.38.25:113][426]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2021.12.13-21.38.25:113][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.017361s)
+[2021.12.13-21.38.25:163][426]LogUObjectHash: Compacting FUObjectHashTables data took   4.47ms
+[2021.12.13-21.38.25:164][426]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.38.25:165][426]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.38.25:165][426]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.38.25:167][426]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.38.25:167][426]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.38.25:170][426]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.38.25:170][426]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.38.25:191][426]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.38.25:191][426]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.38.25:191][426]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.38.25:191][426]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.38.25:191][426]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.38.25:192][426]LogInit: FAudioDevice initialized.
+[2021.12.13-21.38.25:254][426]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.38.25:254][426]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.38.25:273][426]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.38.25
+[2021.12.13-21.38.25:274][426]LogWorld: Bringing up level for play took: 0.016137
+[2021.12.13-21.38.25:275][426]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.12.13-21.38.25:283][426]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.38.25:283][426]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.38.25:283][426]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.38.25:284][426]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.38.25:290][426]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.38.25:291][426]PIE: Server logged in
+[2021.12.13-21.38.25:292][426]PIE: Play in editor total start time 0.197 seconds.
+[2021.12.13-21.38.37:982][916]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.38.38:006][916]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.38.38:008][916]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.38.38:010][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.38.38:028][916]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.38.38:038][916]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.38.38:237][916]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A1439800), frame # 239916
+[2021.12.13-21.38.38:237][916]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285BE2E7E00), frame # 239916
+[2021.12.13-21.38.38:243][916]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
+[2021.12.13-21.38.38:288][917]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.12.13-21.38.50:082][561]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.38.50:154][561]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2021.12.13-21.39.16:264][ 11]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.39.16:341][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   5.13ms
+[2021.12.13-21.39.18:086][101]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.39.18:104][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.39.18:104][101]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:39:18 PM)
+[2021.12.13-21.39.18:104][101]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.39.18:122][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017700s)
+[2021.12.13-21.39.18:123][101]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.39.18:123][101]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285BE2E4A00), frame # 242101
+[2021.12.13-21.39.18:123][101]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A5CB7B00), frame # 242101
+[2021.12.13-21.39.18:123][101]LogPlayLevel: PIE: World Init took: (0.001169s)
+[2021.12.13-21.39.18:123][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.018995s)
+[2021.12.13-21.39.18:181][101]LogUObjectHash: Compacting FUObjectHashTables data took   5.01ms
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.39.18:182][101]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.39.18:182][101]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.39.18:183][101]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.39.18:183][101]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.39.18:185][101]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.39.18:185][101]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.39.18:209][101]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.39.18:209][101]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.39.18:209][101]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.39.18:209][101]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.39.18:209][101]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.39.18:221][101]LogInit: FAudioDevice initialized.
+[2021.12.13-21.39.18:263][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.39.18:263][101]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.39.18:269][101]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.39.18
+[2021.12.13-21.39.18:270][101]LogWorld: Bringing up level for play took: 0.007458
+[2021.12.13-21.39.18:271][101]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.12.13-21.39.18:275][101]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.39.18:275][101]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.39.18:275][101]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.39.18:275][101]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.39.18:281][101]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.39.18:284][101]PIE: Server logged in
+[2021.12.13-21.39.18:285][101]PIE: Play in editor total start time 0.182 seconds.
+[2021.12.13-21.39.28:440][503]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.39.28:475][503]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.39.28:475][503]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.39.28:477][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.39.28:493][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.39.28:508][503]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.39.28:662][503]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A5CB7B00), frame # 242503
+[2021.12.13-21.39.28:662][503]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285BE2E4A00), frame # 242503
+[2021.12.13-21.39.28:666][503]LogUObjectHash: Compacting FUObjectHashTables data took   3.95ms
+[2021.12.13-21.39.28:710][504]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.12.13-21.39.39:638][110]LogEditorTransaction: Undo Delete current selection
+[2021.12.13-21.39.49:946][655]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.39.50:015][655]LogUObjectHash: Compacting FUObjectHashTables data took   5.48ms
+[2021.12.13-21.39.53:771][867]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.39.53:790][867]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.39.53:791][867]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:39:53 PM)
+[2021.12.13-21.39.53:791][867]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.39.53:808][867]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016778s)
+[2021.12.13-21.39.53:808][867]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.39.53:808][867]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028576E69600), frame # 243867
+[2021.12.13-21.39.53:808][867]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285A8BB0400), frame # 243867
+[2021.12.13-21.39.53:809][867]LogPlayLevel: PIE: World Init took: (0.001066s)
+[2021.12.13-21.39.53:809][867]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.017978s)
+[2021.12.13-21.39.53:861][867]LogUObjectHash: Compacting FUObjectHashTables data took   4.82ms
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.39.53:862][867]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.39.53:862][867]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.39.53:862][867]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.39.53:865][867]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.39.53:865][867]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.39.53:885][867]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.39.53:885][867]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.39.53:885][867]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.39.53:886][867]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.39.53:886][867]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.39.53:899][867]LogInit: FAudioDevice initialized.
+[2021.12.13-21.39.53:961][867]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.39.53:962][867]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.39.53:974][867]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.39.53
+[2021.12.13-21.39.53:975][867]LogWorld: Bringing up level for play took: 0.010728
+[2021.12.13-21.39.53:975][867]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.12.13-21.39.53:978][867]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.39.53:979][867]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.39.53:979][867]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.39.53:979][867]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.39.53:989][867]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.39.53:991][867]PIE: Server logged in
+[2021.12.13-21.39.53:992][867]PIE: Play in editor total start time 0.202 seconds.
+[2021.12.13-21.40.12:104][620]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.40.12:134][620]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.40.12:136][620]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.40.12:139][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.40.12:159][620]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.40.12:170][620]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.40.12:342][620]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285A8BB0400), frame # 244620
+[2021.12.13-21.40.12:342][620]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028576E69600), frame # 244620
+[2021.12.13-21.40.12:349][620]LogUObjectHash: Compacting FUObjectHashTables data took   6.26ms
+[2021.12.13-21.40.12:384][621]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.12.13-21.40.17:191][894]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.40.17:266][894]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.12.13-21.41.18:815][378]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2021.12.13-21.41.18:817][378]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.061
+[2021.12.13-21.41.18:817][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/GM_Timer] ([1] browsable assets)...
+[2021.12.13-21.41.18:817][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/GM_Timer]
+[2021.12.13-21.41.18:831][378]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/GM_Timer_Auto6F3F3C27447EC3B4C33B8108BF294B29B.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/GM_Timer_Auto6.uasset'
+[2021.12.13-21.41.18:834][378]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/WG_Timer] ([1] browsable assets)...
+[2021.12.13-21.41.18:834][378]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/WG_Timer]
+[2021.12.13-21.41.18:850][378]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer_Auto62D233F4B4E003006E1AABF98C8966D64.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/WG_Timer_Auto6.uasset'
+[2021.12.13-21.41.18:851][378]LogFileHelpers: Auto-saving content packages took 0.034
+[2021.12.13-21.41.37:394][413]BlueprintLog: New page: Compile GM_Timer
+[2021.12.13-21.41.37:496][413]LogUObjectHash: Compacting FUObjectHashTables data took   4.92ms
+[2021.12.13-21.42.43:107][907]LogSlate: Window 'Change Variable Type' being destroyed
+[2021.12.13-21.42.45:861][ 25]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.13-21.42.45:870][ 25]LogSlate: Window 'Find in Blueprints' being destroyed
+[2021.12.13-21.42.50:376][274]BlueprintLog: New page: Compile BP_Cheems2
+[2021.12.13-21.42.50:423][274]LogBlueprint: Error: [Compiler BP_Cheems2] In use pin  Score  no longer exists on node  Get . Please refresh node or break links to remove pin.
+[2021.12.13-21.42.50:423][274]LogBlueprint: Error: [Compiler BP_Cheems2] In use pin  Score  no longer exists on node  Set . Please refresh node or break links to remove pin.
+[2021.12.13-21.42.50:522][274]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2021.12.13-21.43.08:866][298]BlueprintLog: New page: Compile BP_Cheems2
+[2021.12.13-21.43.08:974][298]LogUObjectHash: Compacting FUObjectHashTables data took  10.10ms
+[2021.12.13-21.44.47:757][996]LogEditorTransaction: Undo Delete current selection
+[2021.12.13-21.45.42:134][902]BlueprintLog: New page: Compile BP_Cheems2
+[2021.12.13-21.45.42:243][902]LogUObjectHash: Compacting FUObjectHashTables data took   7.38ms
+[2021.12.13-21.48.39:203][588]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.48.39:283][588]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2021.12.13-21.48.44:600][895]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.48.44:618][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.48.44:618][895]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:48:44 PM)
+[2021.12.13-21.48.44:619][895]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.48.44:632][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012897s)
+[2021.12.13-21.48.44:634][895]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.48.44:634][895]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285E700FE00), frame # 272895
+[2021.12.13-21.48.44:634][895]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000028585806200), frame # 272895
+[2021.12.13-21.48.44:635][895]LogPlayLevel: PIE: World Init took: (0.003270s)
+[2021.12.13-21.48.44:635][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.016392s)
+[2021.12.13-21.48.44:684][895]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.48.44:686][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.48.44:686][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.48.44:687][895]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.48.44:687][895]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.48.44:690][895]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.48.44:690][895]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.48.44:710][895]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.48.44:710][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.48.44:710][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.48.44:710][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.48.44:710][895]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.48.44:722][895]LogInit: FAudioDevice initialized.
+[2021.12.13-21.48.44:798][895]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.48.44:798][895]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.48.44:807][895]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.48.44
+[2021.12.13-21.48.44:808][895]LogWorld: Bringing up level for play took: 0.007144
+[2021.12.13-21.48.44:808][895]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2021.12.13-21.48.44:811][895]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.48.44:812][895]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.48.44:812][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.48.44:813][895]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.48.44:821][895]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.48.44:823][895]PIE: Server logged in
+[2021.12.13-21.48.44:824][895]PIE: Play in editor total start time 0.206 seconds.
+[2021.12.13-21.48.57:379][379]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.48.57:412][379]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.48.57:413][379]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.48.57:415][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.48.57:465][379]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.48.57:484][379]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.48.57:620][379]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000028585806200), frame # 273379
+[2021.12.13-21.48.57:620][379]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285E700FE00), frame # 273379
+[2021.12.13-21.48.57:624][379]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.12.13-21.48.57:658][380]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2021.12.13-21.49.50:440][400]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.49.50:521][400]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2021.12.13-21.49.51:371][442]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.49.51:391][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.49.51:391][442]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:49:51 PM)
+[2021.12.13-21.49.51:391][442]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.49.51:412][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020639s)
+[2021.12.13-21.49.51:412][442]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.49.51:413][442]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000285E6DC0800), frame # 276442
+[2021.12.13-21.49.51:413][442]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285DEC25A80), frame # 276442
+[2021.12.13-21.49.51:413][442]LogPlayLevel: PIE: World Init took: (0.001014s)
+[2021.12.13-21.49.51:413][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.021771s)
+[2021.12.13-21.49.51:470][442]LogUObjectHash: Compacting FUObjectHashTables data took   7.32ms
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.49.51:471][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.49.51:471][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.49.51:472][442]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.49.51:472][442]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.49.51:474][442]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.49.51:474][442]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.49.51:494][442]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.49.51:494][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.49.51:494][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.49.51:494][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.49.51:495][442]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.49.51:509][442]LogInit: FAudioDevice initialized.
+[2021.12.13-21.49.51:565][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.49.51:566][442]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.49.51:571][442]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.49.51
+[2021.12.13-21.49.51:572][442]LogWorld: Bringing up level for play took: 0.003620
+[2021.12.13-21.49.51:572][442]LogOnline: OSS: Creating online subsystem instance for: :Context_28
+[2021.12.13-21.49.51:573][442]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.49.51:574][442]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.49.51:574][442]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.49.51:574][442]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.49.51:579][442]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.49.51:582][442]PIE: Server logged in
+[2021.12.13-21.49.51:584][442]PIE: Play in editor total start time 0.194 seconds.
+[2021.12.13-21.50.09:063][104]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.50.09:081][104]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.50.09:081][104]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.50.09:082][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.50.09:097][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.50.09:116][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.50.09:279][104]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285DEC25A80), frame # 277104
+[2021.12.13-21.50.09:279][104]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000285E6DC0800), frame # 277104
+[2021.12.13-21.50.09:284][104]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.12.13-21.50.09:315][105]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2021.12.13-21.50.15:981][460]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2021.12.13-21.50.16:034][460]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap12ACC4804D96D6B6B7AAB3AC09862D7A.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.12.13-21.50.16:075][460]AssetCheck: New page: Asset Save: MotionControllerMap
+[2021.12.13-21.50.16:075][460]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.12.13-21.50.17:355][520]LogUObjectHash: Compacting FUObjectHashTables data took   3.86ms
+[2021.12.13-21.50.18:916][520]LogSlate: Window 'Save Content' being destroyed
+[2021.12.13-21.50.19:023][520]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/BP_Cheems27D14448B45A1886705EBAC85A391934F.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/Cheems/BP_Cheems2.uasset'
+[2021.12.13-21.50.19:138][520]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerPawnE34C05C9432E36214F9D37B6AC76FA8E.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.12.13-21.50.19:156][520]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/GM_TimerC2A7ECFD41DCBEDFA7752C923C579E14.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/GM_Timer.uasset'
+[2021.12.13-21.50.19:179][520]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer6FFA72A7477720200A17608773009765.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.13-21.50.19:222][520]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.13-21.50.19:222][520]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/Cheems/BP_Cheems2.BP_Cheems2
+[2021.12.13-21.50.19:223][520]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.12.13-21.50.19:223][520]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Maps/GM_Timer.GM_Timer
+[2021.12.13-21.50.19:223][520]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.13-21.52.26:339][336]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.52.26:409][336]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.12.13-21.54.39:643][162]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.54.39:714][162]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2021.12.13-21.54.45:903][484]LogUObjectHash: Compacting FUObjectHashTables data took   7.51ms
+[2021.12.13-21.54.47:053][484]LogSlate: Window 'Save Content' being destroyed
+[2021.12.13-21.54.47:126][484]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer1DB5FED049880F2DD815C9985AF18FFD.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.13-21.54.47:175][484]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.13-21.54.47:175][484]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.13-21.54.53:290][781]LogUProjectInfo: Found projects:
+[2021.12.13-21.54.53:301][781]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2021.12.13-21.54.53:302][781]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2021.12.13-21.55.01:516][113]LogSlate: Window 'Open Project' being destroyed
+[2021.12.13-21.56.52:416][439]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-21.56.52:486][439]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.12.13-21.56.53:617][501]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-21.56.53:636][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-21.56.53:636][501]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 3:56:53 PM)
+[2021.12.13-21.56.53:636][501]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.56.53:650][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013205s)
+[2021.12.13-21.56.53:651][501]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-21.56.53:651][501]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000028594FCB400), frame # 297501
+[2021.12.13-21.56.53:651][501]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285E39F7D80), frame # 297501
+[2021.12.13-21.56.53:651][501]LogPlayLevel: PIE: World Init took: (0.001156s)
+[2021.12.13-21.56.53:651][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.014485s)
+[2021.12.13-21.56.53:697][501]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-21.56.53:699][501]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-21.56.53:699][501]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-21.56.53:700][501]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-21.56.53:700][501]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-21.56.53:703][501]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-21.56.53:703][501]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-21.56.53:721][501]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-21.56.53:721][501]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-21.56.53:721][501]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-21.56.53:721][501]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-21.56.53:722][501]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-21.56.53:724][501]LogInit: FAudioDevice initialized.
+[2021.12.13-21.56.53:792][501]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-21.56.53:793][501]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-21.56.53:802][501]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-18.56.53
+[2021.12.13-21.56.53:803][501]LogWorld: Bringing up level for play took: 0.007685
+[2021.12.13-21.56.53:803][501]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2021.12.13-21.56.53:807][501]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-21.56.53:807][501]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.56.53:807][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-21.56.53:807][501]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.56.53:819][501]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-21.56.53:820][501]PIE: Server logged in
+[2021.12.13-21.56.53:821][501]PIE: Play in editor total start time 0.187 seconds.
+[2021.12.13-21.56.58:690][689]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-21.56.58:713][689]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-21.56.58:713][689]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-21.56.58:716][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.56.58:730][689]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-21.56.58:741][689]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-21.56.58:879][689]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285E39F7D80), frame # 297689
+[2021.12.13-21.56.58:879][689]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000028594FCB400), frame # 297689
+[2021.12.13-21.56.58:883][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2021.12.13-21.56.58:919][690]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2021.12.13-21.58.42:538][417]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.12.13-21.58.42:659][417]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2021.12.13-22.00.00:235][645]BlueprintLog: New page: Compile MotionControllerPawn
+[2021.12.13-22.00.00:376][645]LogUObjectHash: Compacting FUObjectHashTables data took   4.93ms
+[2021.12.13-22.00.05:473][922]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-22.00.05:495][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-22.00.05:495][922]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 4:00:05 PM)
+[2021.12.13-22.00.05:495][922]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-22.00.05:511][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016285s)
+[2021.12.13-22.00.05:512][922]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-22.00.05:512][922]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002861322AA00), frame # 307922
+[2021.12.13-22.00.05:512][922]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000285AD4B4B80), frame # 307922
+[2021.12.13-22.00.05:512][922]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2021.12.13-22.00.05:512][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.017408s)
+[2021.12.13-22.00.05:564][922]LogUObjectHash: Compacting FUObjectHashTables data took   4.55ms
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-22.00.05:567][922]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-22.00.05:567][922]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-22.00.05:568][922]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-22.00.05:568][922]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-22.00.05:571][922]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-22.00.05:571][922]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-22.00.05:590][922]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-22.00.05:590][922]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-22.00.05:590][922]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-22.00.05:590][922]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-22.00.05:591][922]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-22.00.05:605][922]LogInit: FAudioDevice initialized.
+[2021.12.13-22.00.05:677][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-22.00.05:677][922]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-22.00.05:694][922]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-19.00.05
+[2021.12.13-22.00.05:694][922]LogWorld: Bringing up level for play took: 0.014060
+[2021.12.13-22.00.05:695][922]LogOnline: OSS: Creating online subsystem instance for: :Context_30
+[2021.12.13-22.00.05:703][922]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-22.00.05:705][922]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-22.00.05:705][922]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-22.00.05:705][922]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-22.00.05:713][922]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-22.00.05:719][922]PIE: Server logged in
+[2021.12.13-22.00.05:723][922]PIE: Play in editor total start time 0.229 seconds.
+[2021.12.13-22.00.10:127][ 97]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-22.00.10:127][ 97]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-22.00.10:128][ 97]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-22.00.10:144][ 97]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-22.00.10:145][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-22.00.10:179][ 97]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-22.00.10:190][ 97]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-22.00.10:354][ 97]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000285AD4B4B80), frame # 308097
+[2021.12.13-22.00.10:354][ 97]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002861322AA00), frame # 308097
+[2021.12.13-22.00.10:358][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2021.12.13-22.00.10:394][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2021.12.13-22.00.53:059][571]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-22.00.53:129][571]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2021.12.13-22.00.54:147][628]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.13-22.00.54:167][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.13-22.00.54:168][628]PIE: New page: PIE session: MotionControllerMap (Dec 13, 2021, 4:00:54 PM)
+[2021.12.13-22.00.54:168][628]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-22.00.54:182][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013935s)
+[2021.12.13-22.00.54:183][628]LogAIModule: Creating AISystem for world MotionControllerMap
+[2021.12.13-22.00.54:183][628]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002861B14E000), frame # 310628
+[2021.12.13-22.00.54:183][628]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000286002CC7C0), frame # 310628
+[2021.12.13-22.00.54:183][628]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2021.12.13-22.00.54:183][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap to /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap (0.015041s)
+[2021.12.13-22.00.54:236][628]LogUObjectHash: Compacting FUObjectHashTables data took   8.74ms
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.13-22.00.54:237][628]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.13-22.00.54:237][628]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.13-22.00.54:238][628]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.13-22.00.54:238][628]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.13-22.00.54:240][628]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.13-22.00.54:240][628]LogAudioMixer: Display: 1: FrontRight
+[2021.12.13-22.00.54:259][628]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
+[2021.12.13-22.00.54:259][628]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.13-22.00.54:259][628]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.13-22.00.54:259][628]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.13-22.00.54:260][628]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.13-22.00.54:274][628]LogInit: FAudioDevice initialized.
+[2021.12.13-22.00.54:338][628]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-22.00.54:339][628]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.13-22.00.54:349][628]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap.MotionControllerMap up for play (max tick rate 60) at 2021.12.13-19.00.54
+[2021.12.13-22.00.54:349][628]LogWorld: Bringing up level for play took: 0.008439
+[2021.12.13-22.00.54:350][628]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2021.12.13-22.00.54:353][628]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2021.12.13-22.00.54:354][628]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-22.00.54:354][628]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.13-22.00.54:354][628]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-22.00.54:363][628]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.13-22.00.54:365][628]PIE: Server logged in
+[2021.12.13-22.00.54:369][628]PIE: Play in editor total start time 0.205 seconds.
+[2021.12.13-22.01.04:241][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.13-22.01.04:241][ 94]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_MotionControllerMap
+[2021.12.13-22.01.04:242][ 94]LogSlate: Window 'WhackACheem Preview [NetMode: Standalone] (64-bit/Windows) ' being destroyed
+[2021.12.13-22.01.04:253][ 94]LogWorld: UWorld::CleanupWorld for MotionControllerMap, bSessionEnded=true, bCleanupResources=true
+[2021.12.13-22.01.04:254][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-22.01.04:273][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.13-22.01.04:285][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.13-22.01.04:410][ 94]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000286002CC7C0), frame # 311094
+[2021.12.13-22.01.04:411][ 94]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002861B14E000), frame # 311094
+[2021.12.13-22.01.04:421][ 94]LogUObjectHash: Compacting FUObjectHashTables data took  10.10ms
+[2021.12.13-22.01.04:478][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2021.12.13-22.01.07:261][251]BlueprintLog: New page: Compile WG_Timer
+[2021.12.13-22.01.07:321][251]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2021.12.13-22.01.44:576][431]LogUObjectHash: Compacting FUObjectHashTables data took   4.64ms
+[2021.12.13-22.01.44:620][431]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap_Auto767509BA245F04644CBA50B875E82977D.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/MotionControllerMap_Auto7.umap'
+[2021.12.13-22.01.44:622][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/MotionControllerMap' took 0.100
+[2021.12.13-22.01.44:622][431]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.100
+[2021.12.13-22.01.44:622][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn] ([1] browsable assets)...
+[2021.12.13-22.01.44:622][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Blueprints/MotionControllerPawn]
+[2021.12.13-22.01.44:680][431]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerPawn_Auto7F6865B7A413224327BFB5FBB1EF3D70D.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Blueprints/MotionControllerPawn_Auto7.uasset'
+[2021.12.13-22.01.44:681][431]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VirtualRealityBP/Maps/WG_Timer] ([1] browsable assets)...
+[2021.12.13-22.01.44:681][431]OBJ SavePackage: Finished generating thumbnails for package [/Game/VirtualRealityBP/Maps/WG_Timer]
+[2021.12.13-22.01.44:697][431]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer_Auto782995DF14188F6A695C49CAF7BD830F7.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Autosaves/Game/VirtualRealityBP/Maps/WG_Timer_Auto7.uasset'
+[2021.12.13-22.01.44:699][431]LogFileHelpers: Auto-saving content packages took 0.077
+[2021.12.13-22.05.53:480][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2021.12.13-22.05.54:607][485]LogSlate: Window 'Save Content' being destroyed
+[2021.12.13-22.05.54:722][485]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerPawn62526CE649EF4BD9EB0FD8B927F511E7.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2021.12.13-22.05.54:816][485]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2021.12.13-22.05.54:879][485]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/MotionControllerMap02CED9964323DFD2B7BC289B0663874B.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MotionControllerMap.umap'
+[2021.12.13-22.05.54:906][485]LogFileHelpers: Saving map 'MotionControllerMap' took 0.181
+[2021.12.13-22.05.54:922][485]LogSavePackage: Moving '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer071553744F98F25AEB100A8015E07D5E.tmp' to '../../../../../../Users/danie/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.13-22.05.54:957][485]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.13-22.05.54:957][485]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.12.13-22.05.54:957][485]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/MotionControllerMap.MotionControllerMap
+[2021.12.13-22.05.54:957][485]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
