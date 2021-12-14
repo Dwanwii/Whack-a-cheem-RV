@@ -1,8 +1,8 @@
-﻿Log file open, 12/14/21 20:05:31
+﻿Log file open, 12/14/21 20:19:02
 LogInit: Display: Running engine for game: WhackACheem
 LogPlatformFile: Not using cached read wrapper
-LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 5.320117
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.151471
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -4:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -139,13 +139,13 @@ LogInit: Build: ++UE4+Release-4.25-CL-14469661
 LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
 LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
 LogInit: Net CL: 13144385
-LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 2500U with Radeon Vega Mobile Gfx  , GPU: AMD Radeon(TM) Vega 8 Graphics
+LogInit: OS: Windows 10 (Release 2009) (), CPU: AMD Ryzen 5 5600X 6-Core Processor             , GPU: AMD Radeon RX 5600 XT
 LogInit: Compiled (64-bit): Oct 11 2020 08:10:49
 LogInit: Compiled with Visual C++: 19.24.28315.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.25
-LogInit: Command Line: 
-LogInit: Base Directory: C:/UE_4.25/Engine/Binaries/Win64/
+LogInit: Command Line:  -EpicPortal -epicusername=RandomMacai -epicuserid=a81b1bb367a64845b24766d2c6b572d2 -epiclocale=es-MX -epicsandboxid=ue
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
 LogInit: Allocator: TBB
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 26
@@ -176,7 +176,7 @@ LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 3
 LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
 LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
 LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
-LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
 LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
 LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
 LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
@@ -194,499 +194,1035 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.12.14-23.05.37:585][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.12.14-23.05.37:585][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2021.12.14-23.05.37:598][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[r.MobileMSAA:4]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.12.14-23.05.37:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.12.14-23.05.37:600][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.12.14-23.05.37:600][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.12.14-23.05.37:600][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.12.14-23.05.37:600][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.12.14-23.05.37:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:600][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:658][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.14-23.05.37:658][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:658][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.14-23.05.37:659][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.14-23.05.37:660][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.14-23.05.37:660][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.14-23.05.37:673][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.12.14-23.05.37:674][  0]LogHAL: Display: Platform has ~ 7 GB [7411941376 / 8589934592 / 7], which maps to Smaller [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.12.14-23.05.37:674][  0]LogInit: Going up to parent DeviceProfile []
-[2021.12.14-23.05.37:674][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:1]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.6]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:2]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.ShadowQuality:3]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:1]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:1024]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.05]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.7]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.25]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.VolumetricFog:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:.5]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:60]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:350]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:0]]
-[2021.12.14-23.05.37:674][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.LightShaftQuality:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.7]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:2]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:3                 ; low number of samples when gathering]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:0    ; no foreground scattering]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:0    ; no foreground scattering]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.006   ; required because low gathering and no scattering and not looking great at 1080p]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Applying CVar settings from Section [TextureQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:2]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:4]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:600]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.RefractionQuality:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:2 ; Medium quality]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSS.Scale:0.75]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSS.Quality:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SSGI.Quality:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.25]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.4]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Setting CVar [[grass.DensityScale:0.4]]
-[2021.12.14-23.05.37:675][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@1] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.12.14-23.05.37:676][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.12.14-23.05.37:701][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.12.14-23.05.37:701][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.12.14-23.05.37:701][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.12.14-23.05.37:701][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
-[2021.12.14-23.05.37:761][  0]LogInit: Computer: ELPANAMIGUEL
-[2021.12.14-23.05.37:761][  0]LogInit: User: Pedro
-[2021.12.14-23.05.37:783][  0]LogInit: CPU Page size=4096, Cores=4
-[2021.12.14-23.05.37:783][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.12.14-23.05.37:783][  0]LogMemory: Memory total: Physical=6.9GB (7GB approx)
-[2021.12.14-23.05.37:796][  0]LogMemory: Platform Memory Stats for Windows
-[2021.12.14-23.05.37:796][  0]LogMemory: Process Physical Memory: 115.84 MB used, 115.84 MB peak
-[2021.12.14-23.05.37:796][  0]LogMemory: Process Virtual Memory: 95.84 MB used, 95.84 MB peak
-[2021.12.14-23.05.37:796][  0]LogMemory: Physical Memory: 5713.05 MB used,  1355.53 MB free, 7068.58 MB total
-[2021.12.14-23.05.37:796][  0]LogMemory: Virtual Memory: 5144.91 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2021.12.14-23.05.37:841][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.12.14-23.05.38:802][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.12.14-23.05.38:851][  0]LogInit: Overriding language with editor language configuration option (en).
-[2021.12.14-23.05.38:851][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2021.12.14-23.05.38:851][  0]LogInit: Using OS detected locale (es-CL).
-[2021.12.14-23.05.39:987][  0]LogInit: Setting process to per monitor DPI aware
-[2021.12.14-23.05.40:937][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.12.14-23.05.40:937][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.12.14-23.05.46:303][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.14-23.05.46:319][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.12.14-23.05.46:319][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.12.14-23.05.46:319][  0]LogD3D11RHI: D3D11 adapters:
-[2021.12.14-23.05.46:456][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) Vega 8 Graphics' (Feature Level 11_0)
-[2021.12.14-23.05.46:456][  0]LogD3D11RHI:       1009/0/3534 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2021.12.14-23.05.46:523][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.12.14-23.05.46:523][  0]LogD3D11RHI:       0/0/3534 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.12.14-23.05.46:523][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.12.14-23.05.46:779][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.12.14-23.05.46:815][  0]LogD3D11RHI:     GPU DeviceId: 0x15dd (for the marketing name, search the web for "GPU Device Id")
-[2021.12.14-23.05.46:863][  0]LogWindows: EnumDisplayDevices:
-[2021.12.14-23.05.46:863][  0]LogWindows:    0. 'AMD Radeon(TM) Vega 8 Graphics' (P:1 D:1)
-[2021.12.14-23.05.46:864][  0]LogWindows:    1. 'AMD Radeon(TM) Vega 8 Graphics' (P:0 D:0)
-[2021.12.14-23.05.46:864][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2021.12.14-23.05.46:864][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) Vega 8 Graphics
-[2021.12.14-23.05.46:864][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.7 (internal:23.20.822.1024, unified:23.20.822.1024)
-[2021.12.14-23.05.46:864][  0]LogD3D11RHI:      Driver Date: 3-27-2018
-[2021.12.14-23.05.46:864][  0]LogRHI: Texture pool is 2862 MB (70% of 4089 MB)
-[2021.12.14-23.05.47:736][  0]LogD3D11RHI: RHI does not have support for 64 bit atomics
-[2021.12.14-23.05.47:736][  0]LogD3D11RHI: Async texture creation enabled
-[2021.12.14-23.05.47:736][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.12.14-23.05.48:348][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2021.12.14-23.05.50:616][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.12.14-23.05.50:666][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.12.14-23.05.50:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.12.14-23.05.50:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.12.14-23.05.50:838][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.12.14-23.05.50:868][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.12.14-23.05.50:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.12.14-23.05.50:933][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.12.14-23.05.50:957][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.12.14-23.05.50:985][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.12.14-23.05.51:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.12.14-23.05.51:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.12.14-23.05.51:073][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.12.14-23.05.51:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.12.14-23.05.51:142][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.12.14-23.05.51:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.12.14-23.05.51:208][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.12.14-23.05.51:235][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.12.14-23.05.51:269][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.12.14-23.05.51:269][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.12.14-23.05.51:470][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.12.14-23.05.52:528][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Intermediate/Shaders/WorkingDirectory/13172/).
-[2021.12.14-23.05.52:529][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Pedro/AppData/Local/Temp/UnrealShaderWorkingDir/6192532F42061E0A8B71BA9E2368C2FA/'.
-[2021.12.14-23.05.52:550][  0]LogXGEController: Cleaning working directory: C:/Users/Pedro/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2021.12.14-23.05.52:551][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.12.14-23.05.52:551][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.12.14-23.05.52:552][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.12.14-23.06.05:109][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.12.14-23.06.07:461][  0]LogDerivedDataCache: Loaded boot cache 2.29s 95MB C:/Users/Pedro/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.14-23.06.07:462][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pedro/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.12.14-23.06.07:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.12.14-23.06.07:462][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.12.14-23.06.07:462][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.14-23.06.07:462][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.12.14-23.06.07:595][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.12.14-23.06.07:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.12.14-23.06.07:596][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.12.14-23.06.07:600][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pedro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.12.14-23.06.07:600][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.12.14-23.06.07:600][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.12.14-23.06.08:754][  0]LogSlate: Using FreeType 2.10.0
-[2021.12.14-23.06.09:500][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.12.14-23.06.11:315][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
-[2021.12.14-23.06.24:799][  0]LogInit: Selected Device Profile: [Windows]
-[2021.12.14-23.06.30:240][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.12.14-23.06.30:241][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.12.14-23.06.30:241][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.12.14-23.06.30:241][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.12.14-23.06.30:272][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.12.14-23.06.31:130][  0]LogNetVersion: WhackACheem 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 8173585)
-[2021.12.14-23.07.05:424][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000017A641F1080), frame # 0
-[2021.12.14-23.07.05:424][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017A650611C0), frame # 0
-[2021.12.14-23.07.05:490][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017A650B9C00), frame # 0
-[2021.12.14-23.07.08:238][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.800906 seconds
-[2021.12.14-23.07.08:405][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.12.14-23.07.08:446][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.12.14-23.07.08:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.12.14-23.07.25:269][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.12.14-23.07.25:330][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.12.14-23.07.27:529][  0]SourceControl: Source control is disabled
-[2021.12.14-23.07.27:542][  0]SourceControl: Source control is disabled
-[2021.12.14-23.07.27:848][  0]SourceControl: Source control is disabled
-[2021.12.14-23.07.27:889][  0]SourceControl: Source control is disabled
-[2021.12.14-23.07.28:026][  0]SourceControl: Source control is disabled
-[2021.12.14-23.07.35:772][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.12.14-23.07.36:064][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.14-23.07.36:065][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.12.14-23.07.37:031][  0]LogOcInput: OculusInput pre-init called
-[2021.12.14-23.07.37:191][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.12.14-23.07.37:191][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.12.14-23.07.41:832][  0]LogAutomationTest: Warning: Smoke tests took > 2s to run: 3.18s
-[2021.12.14-23.07.42:016][  0]LogEngine: Initializing Engine...
-[2021.12.14-23.07.42:195][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.12.14-23.07.42:230][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.12.14-23.07.42:427][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.096 s
-[2021.12.14-23.07.43:097][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.12.14-23.07.50:358][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.12.14-23.07.50:358][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017A70147C00), frame # 0
-[2021.12.14-23.07.50:359][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017A68F85580), frame # 0
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.12.14-23.07.51:046][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.12.14-23.07.51:046][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.12.14-23.07.51:049][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.12.14-23.07.51:068][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.12.14-23.07.52:427][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.12.14-23.07.52:427][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.12.14-23.07.52:901][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Realtek(R) Audio)
-[2021.12.14-23.07.53:267][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.12.14-23.07.53:273][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.12.14-23.07.53:274][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.12.14-23.07.53:690][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.12.14-23.07.53:694][  0]LogInit: FAudioDevice initialized.
-[2021.12.14-23.07.54:339][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.12.14-23.07.56:819][  0]LogDerivedDataCache: Saved boot cache 2.48s 95MB C:/Users/Pedro/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.12.14-23.07.56:828][  0]LogInit: Texture streaming: Enabled
-[2021.12.14-23.07.59:392][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.12.14-23.07.59:392][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.12.14-23.07.59:435][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.12.14-23.08.00:571][  0]LogInit: Transaction tracking system initialized
-[2021.12.14-23.08.01:664][  0]BlueprintLog: New page: Editor Load
-[2021.12.14-23.08.04:607][  0]LocalizationService: Localization service is disabled
-[2021.12.14-23.08.23:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/' took 0.06s
-[2021.12.14-23.08.23:358][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.12.14-23.08.23:361][  0]LogCook: Display: Mobile HDR setting 1
-[2021.12.14-23.08.32:788][  0]SourceControl: Source control is disabled
-[2021.12.14-23.08.32:821][  0]LogUnrealEdMisc: Loading editor; pre map load, took 262.074
-[2021.12.14-23.08.32:838][  0]Cmd: MAP LOAD FILE="../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MenuVR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.12.14-23.08.32:939][  0]LightingResults: New page: Lighting Build
-[2021.12.14-23.08.33:175][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.12.14-23.08.33:175][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.12.14-23.08.33:175][  0]MapCheck: New page: Map Check
-[2021.12.14-23.08.33:175][  0]LightingResults: New page: Lighting Build
-[2021.12.14-23.08.33:356][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000017A70147C00), frame # 0
-[2021.12.14-23.08.33:356][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000017A68F85580), frame # 0
-[2021.12.14-23.08.33:358][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
-[2021.12.14-23.08.41:090][  0]LogMaterial: Display: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2021.12.14-23.08.41:473][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
-[2021.12.14-23.08.41:473][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
-[2021.12.14-23.08.41:473][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
-[2021.12.14-23.08.41:473][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
-[2021.12.14-23.08.49:388][  0]LogMaterial: Display: Missing cached shader map for material M_Floor_01, compiling. 
-[2021.12.14-23.08.49:704][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
-[2021.12.14-23.08.49:704][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 19
-[2021.12.14-23.08.49:704][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
-[2021.12.14-23.08.49:704][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
-[2021.12.14-23.08.49:704][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 4
-[2021.12.14-23.08.49:704][  0]LogMaterial: Display: Missing cached shader map for material Fondo2_Mat, compiling. 
-[2021.12.14-23.08.53:376][  0]LogAIModule: Creating AISystem for world MenuVR
-[2021.12.14-23.08.53:376][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000017A6A834A00), frame # 0
-[2021.12.14-23.08.53:376][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000017A57610CC0), frame # 0
-[2021.12.14-23.08.53:976][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 24
-[2021.12.14-23.08.54:375][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
-[2021.12.14-23.08.55:761][  0]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
-[2021.12.14-23.08.55:761][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
-[2021.12.14-23.08.55:761][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
-[2021.12.14-23.08.55:761][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
-[2021.12.14-23.08.56:411][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
-[2021.12.14-23.08.58:000][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
-[2021.12.14-23.08.58:000][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.12.14-23.08.59:113][  0]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
-[2021.12.14-23.08.59:113][  0]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
-[2021.12.14-23.08.59:113][  0]LogShaderCompilers: Display: Worker (5/5): shaders left to compile 2
-[2021.12.14-23.08.59:113][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
-[2021.12.14-23.08.59:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.12.14-23.08.59:190][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 18,921ms to complete.
-[2021.12.14-23.08.59:190][  0]LogFileHelpers: Loading map 'MenuVR' took 26.353
-[2021.12.14-23.09.04:009][  0]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
-[2021.12.14-23.09.04:009][  0]LogUnrealEdMisc: Total Editor Startup Time, took 293.262
-[2021.12.14-23.09.16:954][  0]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2021.12.14-23.09.16:954][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.14-23.09.16:972][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.14-23.09.16:992][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.14-23.09.17:013][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.12.14-23.09.17:278][  0]LogCollectionManager: Loaded 0 collections in 0.007392 seconds
-[2021.12.14-23.09.17:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/Collections/' took 0.00s
-[2021.12.14-23.09.17:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/Developers/Pedro/Collections/' took 0.00s
-[2021.12.14-23.09.17:755][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/Collections/' took 0.00s
-[2021.12.14-23.09.17:755][  0]LogContentBrowser: Native class hierarchy populated in 0.0268 seconds. Added 3427 classes and 821 folders.
-[2021.12.14-23.09.18:223][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2021.12.14-23.09.24:977][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2021.12.14-23.09.26:903][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
-[2021.12.14-23.09.28:649][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0005 seconds. Added 2 classes and 3 folders.
-[2021.12.14-23.09.36:112][  0]LogSlate: Took 0.094038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.12.14-23.09.36:254][  0]LogSlate: Took 0.042148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.12.14-23.09.36:558][  0]LogSlate: Took 0.017030 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.12.14-23.09.38:810][  0]LogRenderer: Reallocating scene render targets to support 792x348 Format 26 NumSamples 1 (Frame:1).
-[2021.12.14-23.09.41:812][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2021.12.14-23.09.41:812][  0]LogLoad: (Engine Initialization) Total time: 331.06 seconds
-[2021.12.14-23.09.41:812][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.12.14-23.09.43:708][  0]LogContentStreaming: Texture pool size now 600 MB
-[2021.12.14-23.09.44:327][  0]LogSlate: Took 0.047723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.14-23.09.45:700][  2]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.12.14-23.09.45:741][  2]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2021.12.14-23.10.10:917][380]LogAssetRegistry: Asset discovery search completed in 239.6038 seconds
-[2021.12.14-23.10.10:923][380]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
-[2021.12.14-23.10.28:538][382]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
-[2021.12.14-23.10.29:650][382]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 125 classes and 0 folders.
-[2021.12.14-23.10.32:914][382]LogSlate: Took 0.098065 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2021.12.14-23.10.33:390][383]LogSlate: Took 0.040371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2021.12.14-23.11.43:411][  1]LogAudioMixer: Display: Audio Buffer Underrun detected.
-[2021.12.14-23.15.54:587][548]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find symbols for 'UWidgetInteractionComponent::ReleasePointerKey' [No se ha encontrado el elemento.]
-[2021.12.14-23.16.13:706][554]BlueprintLog: New page: Compile BP_MotionController
-[2021.12.14-23.16.14:236][554]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
-[2021.12.14-23.16.14:686][554]LogSlate: Took 0.049384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.12.14-23.17.30:439][875]LogSavePackage: Moving '../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Saved/BP_MotionControllerBC5DE3B04A4D9124632F88A80CEEB31F.tmp' to '../../../../Users/Pedro/Documents/GitHub/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
-[2021.12.14-23.17.30:530][875]AssetCheck: New page: Asset Save: BP_MotionController
-[2021.12.14-23.17.30:530][875]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[vr.InstancedStereo:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.HZBOcclusion:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.SSR.MaxRoughness:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.rhicmdbypass:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.MobileMSAA:4]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.12.14-23.19.02:387][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.12.14-23.19.02:388][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:388][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.14-23.19.02:392][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.14-23.19.02:393][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.14-23.19.02:393][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.12.14-23.19.02:393][  0]LogHAL: Display: Platform has ~ 16 GB [17097781248 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.12.14-23.19.02:393][  0]LogInit: Going up to parent DeviceProfile []
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.LensFlareQuality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.BloomQuality:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:4]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSR.Quality:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SceneColorFormat:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.12.14-23.19.02:393][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Scalability.ini]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.12.14-23.19.02:394][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Config/Windows/Engine.ini]
+[2021.12.14-23.19.02:394][  0]LogInit: Computer: DESKTOP-6THA5JD
+[2021.12.14-23.19.02:394][  0]LogInit: User: Macarena
+[2021.12.14-23.19.02:394][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.12.14-23.19.02:394][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.12.14-23.19.02:395][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.12.14-23.19.02:395][  0]LogMemory: Platform Memory Stats for Windows
+[2021.12.14-23.19.02:395][  0]LogMemory: Process Physical Memory: 116.07 MB used, 116.07 MB peak
+[2021.12.14-23.19.02:395][  0]LogMemory: Process Virtual Memory: 96.91 MB used, 96.91 MB peak
+[2021.12.14-23.19.02:395][  0]LogMemory: Physical Memory: 9953.33 MB used,  6352.38 MB free, 16305.71 MB total
+[2021.12.14-23.19.02:395][  0]LogMemory: Virtual Memory: 5166.66 MB used,  134212560.00 MB free, 134217728.00 MB total
+[2021.12.14-23.19.02:399][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.12.14-23.19.02:423][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.12.14-23.19.02:424][  0]LogInit: Overriding language with editor language configuration option (en).
+[2021.12.14-23.19.02:424][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2021.12.14-23.19.02:424][  0]LogInit: Using OS detected locale (es-CL).
+[2021.12.14-23.19.02:570][  0]LogInit: Setting process to per monitor DPI aware
+[2021.12.14-23.19.02:598][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.12.14-23.19.02:598][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.12.14-23.19.02:704][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.14-23.19.02:704][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.12.14-23.19.02:704][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.12.14-23.19.02:704][  0]LogD3D11RHI: D3D11 adapters:
+[2021.12.14-23.19.02:731][  0]LogD3D11RHI:    0. 'AMD Radeon RX 5600 XT' (Feature Level 11_0)
+[2021.12.14-23.19.02:731][  0]LogD3D11RHI:       6103/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2021.12.14-23.19.02:733][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.12.14-23.19.02:733][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.12.14-23.19.02:733][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.12.14-23.19.02:740][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.12.14-23.19.02:740][  0]LogD3D11RHI:     GPU DeviceId: 0x731f (for the marketing name, search the web for "GPU Device Id")
+[2021.12.14-23.19.02:740][  0]LogWindows: EnumDisplayDevices:
+[2021.12.14-23.19.02:740][  0]LogWindows:    0. 'AMD Radeon RX 5600 XT' (P:1 D:1)
+[2021.12.14-23.19.02:740][  0]LogWindows:    1. 'AMD Radeon RX 5600 XT' (P:0 D:1)
+[2021.12.14-23.19.02:740][  0]LogWindows:    2. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:740][  0]LogWindows:    3. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:740][  0]LogWindows:    4. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:741][  0]LogWindows:    5. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:741][  0]LogWindows:    6. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:741][  0]LogWindows:    7. 'AMD Radeon RX 5600 XT' (P:0 D:0)
+[2021.12.14-23.19.02:741][  0]LogWindows: DebugString: FoundDriverCount:8 
+[2021.12.14-23.19.02:741][  0]LogD3D11RHI:     Adapter Name: AMD Radeon RX 5600 XT
+[2021.12.14-23.19.02:741][  0]LogD3D11RHI:   Driver Version: Adrenalin 2020 21.5.2 (internal:27.20.21003.8013, unified:27.20.21003.8013)
+[2021.12.14-23.19.02:741][  0]LogD3D11RHI:      Driver Date: 5-11-2021
+[2021.12.14-23.19.02:741][  0]LogRHI: Texture pool is 3735 MB (70% of 5335 MB)
+[2021.12.14-23.19.02:788][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.12.14-23.19.02:788][  0]LogD3D11RHI: Async texture creation enabled
+[2021.12.14-23.19.02:788][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.12.14-23.19.02:800][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2021.12.14-23.19.03:001][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.12.14-23.19.03:020][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.12.14-23.19.03:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.12.14-23.19.03:040][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.12.14-23.19.03:050][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.12.14-23.19.03:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.12.14-23.19.03:066][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.12.14-23.19.03:074][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.12.14-23.19.03:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.12.14-23.19.03:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.12.14-23.19.03:097][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.12.14-23.19.03:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.12.14-23.19.03:120][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.12.14-23.19.03:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.12.14-23.19.03:134][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.12.14-23.19.03:141][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.12.14-23.19.03:150][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.12.14-23.19.03:158][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.12.14-23.19.03:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.12.14-23.19.03:167][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.12.14-23.19.03:174][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.12.14-23.19.03:223][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Intermediate/Shaders/WorkingDirectory/9436/).
+[2021.12.14-23.19.03:223][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Macarena/AppData/Local/Temp/UnrealShaderWorkingDir/9D57ED994E59778FDAB8A1B8D14E5C8E/'.
+[2021.12.14-23.19.03:223][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.12.14-23.19.03:223][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.12.14-23.19.03:223][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.12.14-23.19.03:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: Loaded boot cache 0.04s 95MB C:/Users/Macarena/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Macarena/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.14-23.19.03:871][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.12.14-23.19.03:880][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.12.14-23.19.03:880][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.12.14-23.19.03:880][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.12.14-23.19.03:881][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Macarena/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.12.14-23.19.03:881][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.12.14-23.19.03:881][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.12.14-23.19.03:918][  0]LogSlate: Using FreeType 2.10.0
+[2021.12.14-23.19.03:918][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.12.14-23.19.03:937][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.12.14-23.19.04:113][  0]LogInit: Selected Device Profile: [Windows]
+[2021.12.14-23.19.04:236][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.12.14-23.19.04:236][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.12.14-23.19.04:236][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.12.14-23.19.04:236][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.12.14-23.19.04:236][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.12.14-23.19.04:249][  0]LogNetVersion: WhackACheem 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 8173585)
+[2021.12.14-23.19.04:553][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001FA381E5400), frame # 0
+[2021.12.14-23.19.04:553][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA25DAE700), frame # 0
+[2021.12.14-23.19.04:554][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA25DBF000), frame # 0
+[2021.12.14-23.19.04:586][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.028295 seconds
+[2021.12.14-23.19.04:590][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.12.14-23.19.04:590][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.12.14-23.19.04:590][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.12.14-23.19.04:859][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.12.14-23.19.04:862][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.12.14-23.19.04:896][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.12.14-23.19.04:896][  0]LogLinker: Warning: Failed to load '/Game/ThirdPersonBP/ThirdPersonOverview': Can't find file.
+[2021.12.14-23.19.04:896][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2021.12.14-23.19.04:922][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.04:922][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.04:924][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.04:927][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.04:933][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.05:156][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.12.14-23.19.05:173][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.14-23.19.05:173][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.12.14-23.19.05:210][  0]LogOcInput: OculusInput pre-init called
+[2021.12.14-23.19.05:218][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.12.14-23.19.05:218][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.12.14-23.19.05:263][  0]LogEngine: Initializing Engine...
+[2021.12.14-23.19.05:264][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.12.14-23.19.05:264][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.12.14-23.19.05:265][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.12.14-23.19.05:342][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.12.14-23.19.05:348][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.12.14-23.19.05:348][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA4576C800), frame # 0
+[2021.12.14-23.19.05:348][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA45781F80), frame # 0
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.19.05:358][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.19.05:358][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.19.05:358][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.19.05:369][  0]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.19.05:394][  0]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.19.05:396][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.19.05:397][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.19.05:397][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.19.05:398][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.19.05:399][  0]LogInit: FAudioDevice initialized.
+[2021.12.14-23.19.05:399][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.12.14-23.19.05:452][  0]LogDerivedDataCache: Saved boot cache 0.05s 95MB C:/Users/Macarena/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.12.14-23.19.05:456][  0]LogInit: Texture streaming: Enabled
+[2021.12.14-23.19.05:468][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.12.14-23.19.05:468][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.12.14-23.19.05:469][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.12.14-23.19.05:502][  0]LogInit: Transaction tracking system initialized
+[2021.12.14-23.19.05:518][  0]BlueprintLog: New page: Editor Load
+[2021.12.14-23.19.05:569][  0]LocalizationService: Localization service is disabled
+[2021.12.14-23.19.05:885][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.12.14-23.19.05:885][  0]LogCook: Display: Mobile HDR setting 1
+[2021.12.14-23.19.05:979][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/' took 0.00s
+[2021.12.14-23.19.06:103][  0]SourceControl: Source control is disabled
+[2021.12.14-23.19.06:103][  0]LogUnrealEdMisc: Loading editor; pre map load, took 4.866
+[2021.12.14-23.19.06:104][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/MenuVR.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.14-23.19.06:104][  0]LightingResults: New page: Lighting Build
+[2021.12.14-23.19.06:104][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.19.06:104][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.19.06:104][  0]MapCheck: New page: Map Check
+[2021.12.14-23.19.06:104][  0]LightingResults: New page: Lighting Build
+[2021.12.14-23.19.06:112][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA4576C800), frame # 0
+[2021.12.14-23.19.06:112][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA45781F80), frame # 0
+[2021.12.14-23.19.06:113][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.12.14-23.19.06:310][  0]LogAIModule: Creating AISystem for world MenuVR
+[2021.12.14-23.19.06:310][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA2C034A00), frame # 0
+[2021.12.14-23.19.06:310][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA2B7874C0), frame # 0
+[2021.12.14-23.19.06:312][  0]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2021.12.14-23.19.06:312][  0]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2021.12.14-23.19.06:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.14-23.19.06:330][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.12.14-23.19.06:330][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.14-23.19.06:330][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,14ms to complete.
+[2021.12.14-23.19.06:330][  0]LogFileHelpers: Loading map 'MenuVR' took 0.227
+[2021.12.14-23.19.06:332][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.094
+[2021.12.14-23.19.06:703][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.19.06:707][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.19.06:711][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.19.06:716][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.19.06:721][  0]LogCollectionManager: Loaded 0 collections in 0.001176 seconds
+[2021.12.14-23.19.06:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/Collections/' took 0.00s
+[2021.12.14-23.19.06:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/Developers/Macarena/Collections/' took 0.00s
+[2021.12.14-23.19.06:732][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/Collections/' took 0.00s
+[2021.12.14-23.19.06:732][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 3427 classes and 821 folders.
+[2021.12.14-23.19.06:734][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.12.14-23.19.06:776][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.14-23.19.06:777][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.12.14-23.19.06:783][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0002 seconds. Added 2 classes and 3 folders.
+[2021.12.14-23.19.06:826][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.12.14-23.19.06:827][  0]LogSlate: Took 0.000080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.12.14-23.19.06:830][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.12.14-23.19.06:878][  0]LogRenderer: Reallocating scene render targets to support 1212x576 Format 26 NumSamples 1 (Frame:1).
+[2021.12.14-23.19.07:020][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2021.12.14-23.19.07:020][  0]LogLoad: (Engine Initialization) Total time: 5.78 seconds
+[2021.12.14-23.19.07:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.12.14-23.19.07:062][  0]LogAssetRegistry: Asset discovery search completed in 3.1259 seconds
+[2021.12.14-23.19.07:065][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.12.14-23.19.07:066][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.12.14-23.19.07:086][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.14-23.19.08:061][ 97]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.12.14-23.19.15:055][902]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.19.15:170][902]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 125 classes and 0 folders.
+[2021.12.14-23.19.16:045][902]LogSlate: Took 0.000118 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.12.14-23.19.34:734][ 92]LogTexture: Display: Building textures: Barra_estrellas (AutoDXT, 1920X1080)
+[2021.12.14-23.20.47:574][405]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.20.47:617][405]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.12.14-23.20.48:006][445]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer02C585E945C1CC9A58CAB5946519696C.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.20.48:021][445]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.20.48:021][445]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.20.55:858][241]LogSlate: Window 'Pick Parent Class' being destroyed
+[2021.12.14-23.21.00:457][786]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_HUD.BP_HUD
+[2021.12.14-23.21.02:081][914]LogRenderer: Reallocating scene render targets to support 1212x708 Format 26 NumSamples 1 (Frame:118).
+[2021.12.14-23.21.02:317][938]LogSlate: Window 'BP_HUD' being destroyed
+[2021.12.14-23.21.06:648][450]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.12.14-23.21.10:106][854]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.12.14-23.21.25:664][683]BlueprintLog: New page: Compile BP_HUD
+[2021.12.14-23.21.25:697][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.12.14-23.21.25:725][683]LogSlate: Took 0.000523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.12.14-23.21.26:285][747]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/BP_HUD7C8D980C436EFAAC2AFB9796A074C5FC.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/BP_HUD.uasset'
+[2021.12.14-23.21.26:295][747]AssetCheck: New page: Asset Save: BP_HUD
+[2021.12.14-23.21.26:295][747]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/BP_HUD.BP_HUD
+[2021.12.14-23.21.29:215][ 87]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer51BB478C48F633BD164A50B1ECEF923C.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.21.29:223][ 87]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.21.29:223][ 87]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.21.45:109][987]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2021.12.14-23.21.52:764][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController
+[2021.12.14-23.22.00:785][781]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.22.00:785][781]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.22.08:272][659]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_WidgetTest.BP_WidgetTest
+[2021.12.14-23.22.34:566][738]LogAssetEditorSubsystem: Opening Asset editor for MapBuildDataRegistry /Game/VirtualRealityBP/Maps/WhackACheem_BuiltData.WhackACheem_BuiltData
+[2021.12.14-23.22.38:077][144]LogAssetEditorSubsystem: Opening Asset editor for World /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem
+[2021.12.14-23.22.38:101][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2021.12.14-23.22.38:103][144]Cmd: MAP LOAD FILE="../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WhackACheem.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.12.14-23.22.38:103][144]LightingResults: New page: Lighting Build
+[2021.12.14-23.22.38:103][144]LoadErrors: New page: Loading map: WhackACheem.umap
+[2021.12.14-23.22.38:104][144]LogWorld: UWorld::CleanupWorld for MenuVR, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.22.38:104][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.22.38:104][144]MapCheck: New page: Map Check
+[2021.12.14-23.22.38:104][144]LightingResults: New page: Lighting Build
+[2021.12.14-23.22.38:123][144]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA2C034A00), frame # 24144
+[2021.12.14-23.22.38:123][144]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA2B7874C0), frame # 24144
+[2021.12.14-23.22.38:125][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2021.12.14-23.22.38:130][144]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.12.14-23.22.38:130][144]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.22.38:130][144]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA2C034E00), frame # 24144
+[2021.12.14-23.22.38:130][144]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA83BF7D80), frame # 24144
+[2021.12.14-23.22.38:154][144]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2021.12.14-23.22.38:171][144]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.12.14-23.22.38:171][144]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,103ms to complete.
+[2021.12.14-23.22.38:171][144]LogFileHelpers: Loading map 'WhackACheem' took 0.068
+[2021.12.14-23.22.46:863][176]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (VRPawn)
+[2021.12.14-23.23.15:932][626]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.23.15:948][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.23.15:948][626]PIE: New page: PIE session: WhackACheem (14-12-2021 17:23:15)
+[2021.12.14-23.23.15:950][626]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.12.14-23.23.15:951][626]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.12.14-23.23.15:952][626]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.23.15:957][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005329s)
+[2021.12.14-23.23.15:958][626]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.23.15:958][626]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA6E7C3E00), frame # 28626
+[2021.12.14-23.23.15:958][626]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8EF4E980), frame # 28626
+[2021.12.14-23.23.15:958][626]LogPlayLevel: PIE: World Init took: (0.000772s)
+[2021.12.14-23.23.15:958][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.006523s)
+[2021.12.14-23.23.15:991][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.23.15:993][626]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.23.15:993][626]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.23.15:993][626]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.23.15:996][626]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.23.16:010][626]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.23.16:010][626]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.23.16:010][626]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.23.16:010][626]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.23.16:010][626]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.23.16:020][626]LogInit: FAudioDevice initialized.
+[2021.12.14-23.23.16:029][626]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.23.16:030][626]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.23.16
+[2021.12.14-23.23.16:030][626]LogWorld: Bringing up level for play took: 0.000936
+[2021.12.14-23.23.16:031][626]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2021.12.14-23.23.16:036][626]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.12.14-23.23.16:036][626]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.23.16:036][626]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.23.16:036][626]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.23.16:044][626]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.23.16:044][626]PIE: Server logged in
+[2021.12.14-23.23.16:046][626]PIE: Play in editor total start time 0,102 seconds.
+[2021.12.14-23.23.30:374][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.23.30:374][299]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.23.30:375][299]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.23.30:375][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.23.30:380][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.23.30:384][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.23.30:419][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.23.30:425][299]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA6E7C3E00), frame # 30299
+[2021.12.14-23.23.30:425][299]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8EF4E980), frame # 30299
+[2021.12.14-23.23.30:443][299]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2021.12.14-23.23.30:459][300]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2021.12.14-23.23.34:100][735]LogEditorViewport: Clicking on Actor (LMB): BP_HUD_C (BP_HUD)
+[2021.12.14-23.23.57:089][450]BlueprintLog: New page: Compile BP_HUD
+[2021.12.14-23.23.57:137][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.92ms
+[2021.12.14-23.23.57:528][489]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/BP_HUD94452554465024B28C8FD0950C5EF96E.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Blueprints/BP_HUD.uasset'
+[2021.12.14-23.23.57:537][489]AssetCheck: New page: Asset Save: BP_HUD
+[2021.12.14-23.23.57:537][489]LogContentValidation: Display: Validating Blueprint /Game/VirtualRealityBP/Blueprints/BP_HUD.BP_HUD
+[2021.12.14-23.24.01:027][901]LogEditorViewport: Clicking on Actor (LMB): BP_HUD_C (BP_HUD)
+[2021.12.14-23.24.04:396][301]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.24.04:406][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.24.04:406][301]PIE: New page: PIE session: WhackACheem (14-12-2021 17:24:04)
+[2021.12.14-23.24.04:406][301]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.24.04:411][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004932s)
+[2021.12.14-23.24.04:412][301]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.24.04:412][301]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA87236200), frame # 34301
+[2021.12.14-23.24.04:412][301]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8989B600), frame # 34301
+[2021.12.14-23.24.04:412][301]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2021.12.14-23.24.04:412][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005823s)
+[2021.12.14-23.24.04:441][301]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.24.04:444][301]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.24.04:444][301]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.24.04:445][301]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.24.04:445][301]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.24.04:447][301]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.24.04:447][301]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.24.04:447][301]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.24.04:448][301]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.24.04:448][301]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.24.04:448][301]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.24.04:448][301]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.24.04:448][301]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.24.04:460][301]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.24.04:461][301]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.24.04:461][301]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.24.04:461][301]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.24.04:461][301]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.24.04:470][301]LogInit: FAudioDevice initialized.
+[2021.12.14-23.24.04:481][301]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.24.04:482][301]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.24.04
+[2021.12.14-23.24.04:482][301]LogWorld: Bringing up level for play took: 0.000979
+[2021.12.14-23.24.04:482][301]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.12.14-23.24.04:483][301]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.24.04:483][301]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.24.04:483][301]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.24.04:486][301]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.24.04:486][301]PIE: Server logged in
+[2021.12.14-23.24.04:486][301]PIE: Play in editor total start time 0,08 seconds.
+[2021.12.14-23.24.15:713][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.24.15:713][640]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.24.15:713][640]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.24.15:713][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.24.15:720][640]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.24.15:724][640]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.24.15:758][640]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.24.15:759][640]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8989B600), frame # 35640
+[2021.12.14-23.24.15:759][640]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA87236200), frame # 35640
+[2021.12.14-23.24.15:762][640]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.12.14-23.24.15:784][641]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDF48545A-4C8A-802E-47DF-0AAD3AAE4DFB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=bb3868bd4233650d6cfc5fa7506d4e99%7Ca81b1bb367a64845b24766d2c6b572d2%7Cdf12b335-067f-4e7c-98e9-676f20fd11ad&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: request failed, libcurl error: 0 (No error)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1fa18d9ff70 [can pipeline])
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 1 (Re-using existing connection! (#0) with host datarouter.ol.epicgames.com)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.222.119.8) port 443 (#0))
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 7 (Closing connection 0)
+[2021.12.14-23.25.12:238][379]LogHttp: Warning: 000001FAA72B4800: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2021.12.14-23.25.12:247][380]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDF48545A-4C8A-802E-47DF-0AAD3AAE4DFB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=bb3868bd4233650d6cfc5fa7506d4e99%7Ca81b1bb367a64845b24766d2c6b572d2%7Cdf12b335-067f-4e7c-98e9-676f20fd11ad&AppEnvironment=datacollector-source&UploadType=eteventstream
+[2021.12.14-23.25.59:520][ 24]LogSlate: Window 'Color Picker' being destroyed
+[2021.12.14-23.26.03:709][517]LogSlate: Window 'Color Picker' being destroyed
+[2021.12.14-23.26.17:186][132]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.26.17:233][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2021.12.14-23.26.17:682][176]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer60CF62E4461F51085C528F99F677DBFD.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.26.17:693][176]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.26.17:693][176]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.26.28:599][475]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.26.28:644][475]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2021.12.14-23.26.29:011][510]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer3C9F2AA541FCE6F7C22EACAA1304505B.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.26.29:020][510]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.26.29:020][510]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.26.38:186][606]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.26.38:229][606]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2021.12.14-23.26.38:684][651]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer25470F3144F9C74DF7159693C565CDD5.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.26.38:694][651]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.26.38:694][651]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.26.50:526][ 63]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.26.50:571][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.12.14-23.26.51:020][107]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_TimerD21992574A769340B8802FAC0EDB2DDF.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.26.51:029][107]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.26.51:029][107]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.26.52:141][239]LogEditorViewport: Clicking on Actor (LMB): BP_HUD_C (BP_HUD)
+[2021.12.14-23.27.02:626][491]LogEditorTransaction: Undo Clicking on Actors
+[2021.12.14-23.27.03:530][572]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.07:212][  5]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.07:212][  5]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.08:044][ 78]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.08:044][ 78]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.08:678][151]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.08:678][151]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.09:195][210]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.09:196][210]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.09:770][276]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.09:770][276]LogEditorTransaction: Undo Edit A
+[2021.12.14-23.27.10:538][365]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.10:538][365]LogEditorTransaction: Undo Edit Margin
+[2021.12.14-23.27.11:074][425]Cmd: TRANSACTION UNDO
+[2021.12.14-23.27.11:074][425]LogEditorTransaction: Undo Edit Margin
+[2021.12.14-23.27.14:368][814]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.27.14:414][814]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.12.14-23.27.14:780][848]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer782F6A4A4C4130868FA195AF5205CDD1.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.27.14:789][848]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.27.14:789][848]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.27.16:940][100]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.27.16:950][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.27.16:950][100]PIE: New page: PIE session: WhackACheem (14-12-2021 17:27:16)
+[2021.12.14-23.27.16:981][100]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.27.16:986][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004767s)
+[2021.12.14-23.27.16:987][100]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.27.16:987][100]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA8EF9E800), frame # 57100
+[2021.12.14-23.27.16:987][100]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8B919300), frame # 57100
+[2021.12.14-23.27.16:987][100]LogPlayLevel: PIE: World Init took: (0.000721s)
+[2021.12.14-23.27.16:987][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005586s)
+[2021.12.14-23.27.17:013][100]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.27.17:014][100]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.27.17:014][100]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.27.17:014][100]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.27.17:018][100]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.27.17:031][100]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.27.17:031][100]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.27.17:031][100]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.27.17:031][100]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.27.17:031][100]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.27.17:040][100]LogInit: FAudioDevice initialized.
+[2021.12.14-23.27.17:048][100]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.27.17:049][100]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.27.17
+[2021.12.14-23.27.17:049][100]LogWorld: Bringing up level for play took: 0.000721
+[2021.12.14-23.27.17:049][100]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.12.14-23.27.17:050][100]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.17:050][100]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.17:050][100]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.17:052][100]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.17:052][100]PIE: Server logged in
+[2021.12.14-23.27.17:053][100]PIE: Play in editor total start time 0,104 seconds.
+[2021.12.14-23.27.18:382][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.27.18:382][255]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.27.18:382][255]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.27.18:383][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.27.18:392][255]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.27.18:395][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.27.18:428][255]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.27.18:429][255]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8B919300), frame # 57255
+[2021.12.14-23.27.18:429][255]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA8EF9E800), frame # 57255
+[2021.12.14-23.27.18:431][255]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2021.12.14-23.27.18:456][256]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.12.14-23.27.25:324][ 72]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.27.25:368][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2021.12.14-23.27.25:743][107]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_TimerFA66B5914CE1C2E8418D31A924468C89.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.27.25:752][107]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.27.25:752][107]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.27.26:867][237]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.27.26:877][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.27.26:877][237]PIE: New page: PIE session: WhackACheem (14-12-2021 17:27:26)
+[2021.12.14-23.27.26:901][237]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.27.26:905][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004740s)
+[2021.12.14-23.27.26:906][237]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.27.26:906][237]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA321AE200), frame # 58237
+[2021.12.14-23.27.26:906][237]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA7F4B7C40), frame # 58237
+[2021.12.14-23.27.26:906][237]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2021.12.14-23.27.26:906][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005537s)
+[2021.12.14-23.27.26:932][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.27.26:933][237]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.27.26:933][237]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.27.26:933][237]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.27.26:936][237]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.27.26:948][237]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.27.26:948][237]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.27.26:948][237]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.27.26:948][237]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.27.26:948][237]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.27.26:957][237]LogInit: FAudioDevice initialized.
+[2021.12.14-23.27.26:964][237]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.27.26:965][237]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.27.26
+[2021.12.14-23.27.26:965][237]LogWorld: Bringing up level for play took: 0.000718
+[2021.12.14-23.27.26:965][237]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.12.14-23.27.26:966][237]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.26:966][237]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.26:966][237]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.26:968][237]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.26:968][237]PIE: Server logged in
+[2021.12.14-23.27.26:969][237]PIE: Play in editor total start time 0,091 seconds.
+[2021.12.14-23.27.46:452][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.27.46:452][551]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.27.46:452][551]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.27.46:452][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.27.46:461][551]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.27.46:464][551]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.27.46:499][551]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.27.46:499][551]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA7F4B7C40), frame # 60551
+[2021.12.14-23.27.46:499][551]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA321AE200), frame # 60551
+[2021.12.14-23.27.46:502][551]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2021.12.14-23.27.46:528][553]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.12.14-23.27.51:115][ 97]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.27.51:125][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.27.51:126][ 97]PIE: New page: PIE session: WhackACheem (14-12-2021 17:27:51)
+[2021.12.14-23.27.51:151][ 97]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.27.51:156][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004823s)
+[2021.12.14-23.27.51:157][ 97]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.27.51:157][ 97]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA8774AC00), frame # 61097
+[2021.12.14-23.27.51:157][ 97]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8A245E40), frame # 61097
+[2021.12.14-23.27.51:157][ 97]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2021.12.14-23.27.51:157][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005604s)
+[2021.12.14-23.27.51:183][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.27.51:185][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.27.51:185][ 97]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.27.51:185][ 97]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.27.51:188][ 97]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.27.51:200][ 97]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.27.51:200][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.27.51:200][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.27.51:200][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.27.51:201][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.27.51:210][ 97]LogInit: FAudioDevice initialized.
+[2021.12.14-23.27.51:218][ 97]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.27.51:219][ 97]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.27.51
+[2021.12.14-23.27.51:219][ 97]LogWorld: Bringing up level for play took: 0.000731
+[2021.12.14-23.27.51:219][ 97]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.12.14-23.27.51:220][ 97]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.51:220][ 97]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.27.51:220][ 97]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.51:222][ 97]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.27.51:222][ 97]PIE: Server logged in
+[2021.12.14-23.27.51:223][ 97]PIE: Play in editor total start time 0,098 seconds.
+[2021.12.14-23.28.02:262][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.28.02:262][405]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.28.02:262][405]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.02:262][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.02:272][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.28.02:276][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.02:299][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.28.02:311][405]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8A245E40), frame # 62405
+[2021.12.14-23.28.02:311][405]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA8774AC00), frame # 62405
+[2021.12.14-23.28.02:314][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.12.14-23.28.02:332][406]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2021.12.14-23.28.11:490][488]BlueprintLog: New page: Compile WG_Timer
+[2021.12.14-23.28.11:535][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2021.12.14-23.28.12:252][567]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WG_Timer5A78FD91490E456D2C3B7C99C16A5A57.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WG_Timer.uasset'
+[2021.12.14-23.28.12:262][567]AssetCheck: New page: Asset Save: WG_Timer
+[2021.12.14-23.28.12:262][567]LogContentValidation: Display: Validating WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.28.13:576][719]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.28.13:586][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.28.13:586][719]PIE: New page: PIE session: WhackACheem (14-12-2021 17:28:13)
+[2021.12.14-23.28.13:621][719]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.28.13:626][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004935s)
+[2021.12.14-23.28.13:626][719]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.28.13:626][719]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA8784EE00), frame # 63719
+[2021.12.14-23.28.13:626][719]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8B93CA40), frame # 63719
+[2021.12.14-23.28.13:626][719]LogPlayLevel: PIE: World Init took: (0.000707s)
+[2021.12.14-23.28.13:626][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005746s)
+[2021.12.14-23.28.13:652][719]LogUObjectHash: Compacting FUObjectHashTables data took   3.22ms
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.28.13:653][719]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.28.13:653][719]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.28.13:653][719]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.28.13:656][719]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.28.13:668][719]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.28.13:668][719]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.28.13:668][719]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.28.13:668][719]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.28.13:669][719]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.28.13:678][719]LogInit: FAudioDevice initialized.
+[2021.12.14-23.28.13:692][719]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.28.13:693][719]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.28.13
+[2021.12.14-23.28.13:693][719]LogWorld: Bringing up level for play took: 0.000723
+[2021.12.14-23.28.13:693][719]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.12.14-23.28.13:694][719]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.28.13:694][719]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.28.13:694][719]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.28.13:696][719]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.28.13:696][719]PIE: Server logged in
+[2021.12.14-23.28.13:697][719]PIE: Play in editor total start time 0,11 seconds.
+[2021.12.14-23.28.26:842][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.28.26:842][249]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.28.26:843][249]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.26:843][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.26:853][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.28.26:856][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.26:890][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.28.26:890][249]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8B93CA40), frame # 65249
+[2021.12.14-23.28.26:890][249]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA8784EE00), frame # 65249
+[2021.12.14-23.28.26:893][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.12.14-23.28.26:915][250]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.12.14-23.28.41:249][954]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.41:249][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.41:262][954]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.41:262][954]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.43:038][157]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.43:038][157]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.28.43:708][230]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2021.12.14-23.28.43:708][230]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.28.43:708][230]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.29.15:831][ 47]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Blueprints/WG_MainMenu.WG_MainMenu
+[2021.12.14-23.29.17:730][240]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.29.17:730][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.29.17:734][240]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.29.17:734][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.29.35:832][384]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/BP_HUD.BP_HUD
+[2021.12.14-23.29.46:785][636]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/VirtualRealityBP/Maps/WG_Timer.WG_Timer
+[2021.12.14-23.30.08:948][232]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VirtualRealityBP/Blueprints/MotionControllerPawn.MotionControllerPawn
+[2021.12.14-23.30.10:925][408]LogSlate: Window 'MotionControllerPawn' being destroyed
+[2021.12.14-23.30.41:027][976]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem:PersistentLevel.WhackACheem
+[2021.12.14-23.30.45:389][471]BlueprintLog: New page: Compile WhackACheem
+[2021.12.14-23.30.45:470][471]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.12.14-23.30.46:104][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2021.12.14-23.30.46:126][537]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WhackACheemA43EB58A45CAC67CEE24CEB7929882B3.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WhackACheem.umap'
+[2021.12.14-23.30.46:146][537]LogFileHelpers: Saving map 'WhackACheem' took 0.093
+[2021.12.14-23.30.46:155][537]AssetCheck: New page: Asset Save: WhackACheem
+[2021.12.14-23.30.46:155][537]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem
+[2021.12.14-23.30.47:177][653]LogTemp: Repeating last play command: Selected Viewport
+[2021.12.14-23.30.47:186][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.12.14-23.30.47:186][653]PIE: New page: PIE session: WhackACheem (14-12-2021 17:30:47)
+[2021.12.14-23.30.47:221][653]LogPlayLevel: Creating play world package: /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.30.47:226][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004751s)
+[2021.12.14-23.30.47:226][653]LogAIModule: Creating AISystem for world WhackACheem
+[2021.12.14-23.30.47:227][653]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001FA895E9C00), frame # 81653
+[2021.12.14-23.30.47:227][653]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001FA8DB78540), frame # 81653
+[2021.12.14-23.30.47:227][653]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2021.12.14-23.30.47:227][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem to /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem (0.005550s)
+[2021.12.14-23.30.47:246][653]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.12.14-23.30.47:247][653]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.12.14-23.30.47:247][653]LogAudio: Display: Using built-in audio occlusion.
+[2021.12.14-23.30.47:247][653]LogAudioMixer: Display: Initializing audio mixer.
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 0: FrontLeft
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 1: FrontRight
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 2: FrontCenter
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 3: LowFrequency
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 4: BackLeft
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 5: BackRight
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 6: SideLeft
+[2021.12.14-23.30.47:250][653]LogAudioMixer: Display: 7: SideRight
+[2021.12.14-23.30.47:264][653]LogAudioMixer: Display: Using Audio Device Altavoces (Logitech G733 Gaming Headset)
+[2021.12.14-23.30.47:264][653]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.12.14-23.30.47:264][653]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.12.14-23.30.47:264][653]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.12.14-23.30.47:264][653]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.12.14-23.30.47:274][653]LogInit: FAudioDevice initialized.
+[2021.12.14-23.30.47:285][653]LogLoad: Game class is 'GM_Timer_C'
+[2021.12.14-23.30.47:286][653]LogWorld: Bringing World /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem.WhackACheem up for play (max tick rate 0) at 2021.12.14-20.30.47
+[2021.12.14-23.30.47:286][653]LogWorld: Bringing up level for play took: 0.000711
+[2021.12.14-23.30.47:286][653]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.12.14-23.30.47:287][653]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.30.47:287][653]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2021.12.14-23.30.47:287][653]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.30.47:289][653]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2021.12.14-23.30.47:289][653]PIE: Server logged in
+[2021.12.14-23.30.47:290][653]PIE: Play in editor total start time 0,104 seconds.
+[2021.12.14-23.30.56:062][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.30.56:062][699]LogWorld: BeginTearingDown for /Game/VirtualRealityBP/Maps/UEDPIE_0_WhackACheem
+[2021.12.14-23.30.56:062][699]LogWorld: UWorld::CleanupWorld for WhackACheem, bSessionEnded=true, bCleanupResources=true
+[2021.12.14-23.30.56:062][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.30.56:071][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.12.14-23.30.56:073][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.12.14-23.30.56:118][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.12.14-23.30.56:119][699]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001FA8DB78540), frame # 82699
+[2021.12.14-23.30.56:119][699]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001FA895E9C00), frame # 82699
+[2021.12.14-23.30.56:120][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2021.12.14-23.30.56:137][700]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.12.14-23.30.59:152][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2021.12.14-23.30.59:174][ 53]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WhackACheem7B43694343CC2CA6147CE593FA3AF668.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WhackACheem.umap'
+[2021.12.14-23.30.59:255][ 53]LogSavePackage: Moving '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Saved/WhackACheem_BuiltData965E321147F0C5F84D8E3FAC8DBF3D94.tmp' to '../../../../../../Users/Macarena/Documents/Unreal Projects/Whack-a-cheem-RV/WhackACheem/Content/VirtualRealityBP/Maps/WhackACheem_BuiltData.uasset'
+[2021.12.14-23.30.59:270][ 53]AssetCheck: New page: Asset Save: multiple assets
+[2021.12.14-23.30.59:270][ 53]LogContentValidation: Display: Validating World /Game/VirtualRealityBP/Maps/WhackACheem.WhackACheem
+[2021.12.14-23.30.59:270][ 53]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/VirtualRealityBP/Maps/WhackACheem_BuiltData.WhackACheem_BuiltData
+[2021.12.14-23.31.00:493][196]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
